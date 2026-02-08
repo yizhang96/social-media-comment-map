@@ -1,0 +1,106 @@
+comment_text,user,time_raw,location_raw,likes
+"This is a sample comment about studying abroad.",user_01,2026-02-07,Shanghai,12
+"I felt more independent after moving to a new city.",user_02,2026-02-07,Beijing,8
+"The hardest part was adapting to a new academic culture.",user_03,2026-02-07,Shenzhen,5
+"I made lifelong friends during my exchange program.",user_04,2026-02-07,Guangzhou,20
+"The cost of living was higher than I expected.",user_05,2026-02-07,Hangzhou,3
+"If you have scholarships, it’s manageable. Anyone else feel the same?",user_100,2026-02-07,Xi'an,15
+"I grew faster than I expected. Maybe I was lucky.",user_101,2026-02-08,Guangzhou,43
+"I got homesick all the time. Just my two cents.",user_102,2026-02-09,Kunming,2
+"Not sure I agree, my experience was different. Just my two cents.",user_103,2026-02-10,Wuhan,14
+"I realized I actually like routine. It helped me grow up fast.",user_104,2026-02-11,Shanghai,35
+"I learned to be more resilient. I still keep in touch with my classmates.",user_105,2026-02-07,Kunming,14
+"I don’t think it’s for everyone. It helped me grow up fast.",user_106,2026-02-08,Xi'an,0
+"Honestly it was overrated for me. It’s complicated, not all good or bad.",user_107,2026-02-09,Xiamen,17
+"The food was the biggest culture shock. Curious what others think.",user_108,2026-02-10,Xiamen,6
+"I found the community very supportive. It’s complicated, not all good or bad.",user_109,2026-02-11,Guangzhou,22
+"I miss the convenience back home. It helped me grow up fast.",user_110,2026-02-07,Xi'an,2
+"The admin processes were exhausting. In hindsight I would choose differently.",user_111,2026-02-08,Guangzhou,24
+"I found the community very supportive. In hindsight I would choose differently.",user_112,2026-02-09,Suzhou,40
+"It changed how I see my future. I had the opposite experience.",user_113,2026-02-10,Wuhan,45
+"Language barriers were tough at first. Anyone else feel the same?",user_114,2026-02-11,Nanjing,18
+"I found the community very supportive. Curious what others think.",user_115,2026-02-07,Guangzhou,24
+"Different majors have very different experiences. For me it was life-changing.",user_116,2026-02-08,Qingdao,10
+"The best part was meeting people from everywhere. I had the opposite experience.",user_117,2026-02-09,Wuhan,42
+"Different majors have very different experiences. I still keep in touch with my classmates.",user_118,2026-02-10,Shenzhen,38
+"Honestly it was overrated for me. In hindsight I would choose differently.",user_119,2026-02-11,Nanjing,10
+"The admin processes were exhausting. It’s complicated, not all good or bad.",user_120,2026-02-07,Xi'an,40
+"I stopped comparing myself to others. Curious what others think.",user_121,2026-02-08,Xiamen,3
+"I grew faster than I expected. Anyone else feel the same?",user_122,2026-02-09,Xiamen,25
+"Different majors have very different experiences. Just my two cents.",user_123,2026-02-10,Wuhan,36
+"I had to work part-time to afford it. Curious what others think.",user_124,2026-02-11,Tianjin,25
+"The admin processes were exhausting. Maybe I was lucky.",user_125,2026-02-07,Xi'an,8
+"I made connections that helped my career. In hindsight I would choose differently.",user_126,2026-02-08,Xi'an,37
+"I’d do it again if I could. It helped me grow up fast.",user_127,2026-02-09,Harbin,23
+"I grew faster than I expected. Maybe I was lucky.",user_128,2026-02-10,Tianjin,5
+"The bureaucracy was the hardest part. Just my two cents.",user_129,2026-02-11,Hangzhou,40
+"Honestly it was overrated for me. I still keep in touch with my classmates.",user_130,2026-02-07,Kunming,38
+"Language barriers were tough at first. It’s complicated, not all good or bad.",user_131,2026-02-08,Harbin,38
+"The admin processes were exhausting. In hindsight I would choose differently.",user_132,2026-02-09,Xi'an,35
+"I agree, it really changes your worldview. I still keep in touch with my classmates.",user_133,2026-02-10,Guangzhou,43
+"I got homesick all the time. Would love to hear more stories.",user_134,2026-02-11,Xiamen,7
+"I think social media exaggerates the highlights. It’s complicated, not all good or bad.",user_135,2026-02-07,Chengdu,29
+"I agree, it really changes your worldview. Would love to hear more stories.",user_136,2026-02-08,Chengdu,32
+"This depends a lot on the city and school. I still keep in touch with my classmates.",user_137,2026-02-09,Suzhou,40
+"I realized I actually like routine. It helped me grow up fast.",user_138,2026-02-10,Wuhan,9
+"The best part was meeting people from everywhere. Maybe I was lucky.",user_139,2026-02-11,Shanghai,38
+"I had to work part-time to afford it. For me it was life-changing.",user_140,2026-02-07,Shanghai,7
+"The best part was meeting people from everywhere. Would love to hear more stories.",user_141,2026-02-08,Nanjing,3
+"I made connections that helped my career. It helped me grow up fast.",user_142,2026-02-09,Shenzhen,5
+"My mental health got worse at first. Just my two cents.",user_143,2026-02-10,Hangzhou,8
+"My mental health improved surprisingly. In hindsight I would choose differently.",user_144,2026-02-11,Chengdu,16
+"I learned to budget properly. It helped me grow up fast.",user_145,2026-02-07,Kunming,13
+"I got homesick all the time. Curious what others think.",user_146,2026-02-08,Suzhou,25
+"The best part was meeting people from everywhere. For me it was life-changing.",user_147,2026-02-09,Changsha,7
+"I made connections that helped my career. Curious what others think.",user_148,2026-02-10,Shenzhen,21
+"Not sure I agree, my experience was different. It helped me grow up fast.",user_149,2026-02-11,Nanjing,37
+"I grew faster than I expected. Anyone else feel the same?",user_150,2026-02-07,Shenzhen,45
+"The bureaucracy was the hardest part. Curious what others think.",user_151,2026-02-08,Shenzhen,2
+"The academic pressure was intense. Just my two cents.",user_152,2026-02-09,Nanjing,17
+"My mental health got worse at first. Curious what others think.",user_153,2026-02-10,Hangzhou,36
+"I think the value is in perspective. For me it was life-changing.",user_154,2026-02-11,Nanjing,30
+"I felt more open-minded afterward. Curious what others think.",user_155,2026-02-07,Guangzhou,6
+"I’d do it again if I could. I had the opposite experience.",user_156,2026-02-08,Kunming,26
+"The admin processes were exhausting. Anyone else feel the same?",user_157,2026-02-09,Guangzhou,3
+"It was a big confidence boost. I had the opposite experience.",user_158,2026-02-10,Guangzhou,15
+"I learned to be more resilient. Curious what others think.",user_159,2026-02-11,Changsha,8
+"I’d do it again if I could. Maybe I was lucky.",user_160,2026-02-07,Xi'an,29
+"I made connections that helped my career. Just my two cents.",user_161,2026-02-08,Changsha,35
+"This depends a lot on the city and school. Anyone else feel the same?",user_162,2026-02-09,Shanghai,5
+"I made connections that helped my career. Maybe I was lucky.",user_163,2026-02-10,Kunming,31
+"My mental health improved surprisingly. Curious what others think.",user_164,2026-02-11,Harbin,3
+"Honestly it was overrated for me. It’s complicated, not all good or bad.",user_165,2026-02-07,Shanghai,24
+"I felt lonely at first but it got better. For me it was life-changing.",user_166,2026-02-08,Suzhou,27
+"I stopped comparing myself to others. I still keep in touch with my classmates.",user_167,2026-02-09,Tianjin,9
+"I learned to be more resilient. Would love to hear more stories.",user_168,2026-02-10,Wuhan,3
+"I only recommend it if you’re curious. In hindsight I would choose differently.",user_169,2026-02-11,Beijing,20
+"The bureaucracy was the hardest part. Anyone else feel the same?",user_170,2026-02-07,Tianjin,32
+"I learned to budget properly. Maybe I was lucky.",user_171,2026-02-08,Beijing,32
+"I found the community very supportive. Maybe I was lucky.",user_172,2026-02-09,Shenzhen,38
+"Language barriers were tough at first. I still keep in touch with my classmates.",user_173,2026-02-10,Nanjing,25
+"If you have scholarships, it’s manageable. It helped me grow up fast.",user_174,2026-02-11,Nanjing,37
+"The job market felt uncertain. Anyone else feel the same?",user_175,2026-02-07,Shenzhen,26
+"I only recommend it if you’re curious. It helped me grow up fast.",user_176,2026-02-08,Xiamen,16
+"The weather made it hard to adapt. I still keep in touch with my classmates.",user_177,2026-02-09,Xiamen,15
+"I felt lonely at first but it got better. It’s complicated, not all good or bad.",user_178,2026-02-10,Hangzhou,42
+"It taught me to handle uncertainty. For me it was life-changing.",user_179,2026-02-11,Xiamen,4
+"I agree, it really changes your worldview. For me it was life-changing.",user_180,2026-02-07,Guangzhou,4
+"I got homesick all the time. Curious what others think.",user_181,2026-02-08,Xi'an,8
+"I miss the convenience back home. Just my two cents.",user_182,2026-02-09,Nanjing,23
+"I think social media exaggerates the highlights. Maybe I was lucky.",user_183,2026-02-10,Changsha,34
+"It taught me to handle uncertainty. It helped me grow up fast.",user_184,2026-02-11,Shanghai,42
+"I stopped comparing myself to others. Would love to hear more stories.",user_185,2026-02-07,Guangzhou,8
+"I felt lonely at first but it got better. Just my two cents.",user_186,2026-02-08,Guangzhou,35
+"The food was the biggest culture shock. Would love to hear more stories.",user_187,2026-02-09,Suzhou,38
+"The weather made it hard to adapt. I had the opposite experience.",user_188,2026-02-10,Wuhan,43
+"I felt lonely at first but it got better. In hindsight I would choose differently.",user_189,2026-02-11,Tianjin,16
+"The bureaucracy was the hardest part. Just my two cents.",user_190,2026-02-07,Kunming,17
+"For me it was mostly about independence. Anyone else feel the same?",user_191,2026-02-08,Xiamen,8
+"I felt lonely at first but it got better. Maybe I was lucky.",user_192,2026-02-09,Changsha,35
+"I’d do it again if I could. In hindsight I would choose differently.",user_193,2026-02-10,Shanghai,7
+"Language barriers were tough at first. Maybe I was lucky.",user_194,2026-02-11,Beijing,23
+"I only recommend it if you’re curious. In hindsight I would choose differently.",user_195,2026-02-07,Hangzhou,27
+"I wish I prepared more before leaving. Anyone else feel the same?",user_196,2026-02-08,Suzhou,23
+"For me it was mostly about independence. I had the opposite experience.",user_197,2026-02-09,Wuhan,43
+"I made connections that helped my career. I still keep in touch with my classmates.",user_198,2026-02-10,Guangzhou,22
+"I stopped comparing myself to others. It’s complicated, not all good or bad.",user_199,2026-02-11,Hangzhou,15

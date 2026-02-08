@@ -1,0 +1,6 @@
+{
+    "id": "example_demo",
+    "title": "Example Dataset",
+    "created_at": "2026-02-08",
+    "description": "Synthetic comments to validate the pipeline"
+  }

@@ -5,6 +5,8 @@
 __pycache__/
 *.pyc
 .venv/
+local/
+archive_data/
 
 # node
 web/node_modules/
