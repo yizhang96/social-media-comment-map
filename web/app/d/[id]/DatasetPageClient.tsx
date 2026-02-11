@@ -73,7 +73,11 @@ export default function DatasetPageClient({ id }: { id: string }) {
       </div>
 
       <div style={{ marginTop: 12 }}>
-        <ScatterMap datasetId={effectiveId} mapType={mapType} />
+        {!effectiveId ? (
+          <div style={{ opacity: 0.7 }}>Loading dataset…</div>
+        ) : (
+          <ScatterMap datasetId={effectiveId} mapType={mapType} />
+        )}
       </div>
     </main>
   );
