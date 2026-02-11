@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { withBasePath } from "../lib/basePath";
 
 type DatasetMeta = {
@@ -29,9 +28,9 @@ export default function DatasetList() {
   return (
     <div style={{ display: "grid", gap: 12 }}>
       {items.map((d) => (
-        <Link
+        <a
           key={d.id}
-          href={`/d/${encodeURIComponent(d.id)}/`}
+          href={withBasePath(`/d/${encodeURIComponent(d.id)}/`)}
           style={{
             display: "block",
             border: "1px solid #eee",
@@ -46,7 +45,7 @@ export default function DatasetList() {
             {d.platform ?? ""}{d.created_at ? ` · ${d.created_at}` : ""}
           </div>
           {d.description ? <div style={{ marginTop: 8, opacity: 0.85 }}>{d.description}</div> : null}
-        </Link>
+        </a>
       ))}
     </div>
   );

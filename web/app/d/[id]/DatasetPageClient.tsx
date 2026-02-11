@@ -35,7 +35,7 @@ export default function DatasetPageClient({ id }: { id: string }) {
 
   return (
     <main style={{ padding: 16 }}>
-      <a href="/" style={{ fontSize: 12, opacity: 0.75 }}>← Back</a>
+      <a href={withBasePath("/")} style={{ fontSize: 12, opacity: 0.75 }}>← Back</a>
 
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginTop: 8 }}>
         <div>
