@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { withBasePath } from "../lib/basePath";
 
 type DatasetMeta = {
   id: string;
@@ -16,7 +17,7 @@ export default function DatasetList() {
   const [err, setErr] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/datasets/index.json")
+    fetch(withBasePath("/datasets/index.json"))
       .then((r) => r.json())
       .then((d) => setItems(d))
       .catch((e) => setErr(String(e)));
@@ -30,7 +31,7 @@ export default function DatasetList() {
       {items.map((d) => (
         <Link
           key={d.id}
-          href={`/d/${encodeURIComponent(d.id)}`}
+          href={withBasePath(`/d/${encodeURIComponent(d.id)}/`)}
           style={{
             display: "block",
             border: "1px solid #eee",

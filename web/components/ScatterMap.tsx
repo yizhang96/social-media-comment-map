@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
+import { withBasePath } from "../lib/basePath";
 
-// ✅ 关键：关闭 SSR，避免 self is not defined
 const Plot = dynamic(() => import("react-plotly.js"), {
   ssr: false,
 }) as unknown as any;
@@ -34,7 +34,7 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
     setErr(null);
 
     const file = mapType === "tfidf" ? "comments_map_tfidf.json" : "comments_map_openai.json";
-    fetch(`/datasets/${encodeURIComponent(datasetId)}/${file}`)
+    fetch(withBasePath(`/datasets/${encodeURIComponent(datasetId)}/${file}`))
           .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
