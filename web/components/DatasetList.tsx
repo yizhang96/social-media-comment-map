@@ -31,7 +31,7 @@ export default function DatasetList() {
       {items.map((d) => (
         <Link
           key={d.id}
-          href={withBasePath(`/d/${encodeURIComponent(d.id)}/`)}
+          href={`/d/${encodeURIComponent(d.id)}/`}
           style={{
             display: "block",
             border: "1px solid #eee",
