@@ -20,7 +20,8 @@ export default function DatasetPageClient({ id }: { id: string }) {
     const base = withBasePath("/");
     const path = window.location.pathname;
     const stripped = base !== "/" && path.startsWith(base) ? path.slice(base.length) : path;
-    const m = stripped.match(/^\/d\/([^/]+)\/?/);
+    const normalized = stripped.startsWith("/") ? stripped : `/${stripped}`;
+    const m = normalized.match(/^\/d\/([^/]+)\/?/);
     if (m?.[1]) setEffectiveId(decodeURIComponent(m[1]));
   }, [id]);
 
