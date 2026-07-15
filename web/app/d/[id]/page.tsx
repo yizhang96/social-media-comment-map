@@ -16,7 +16,13 @@ export function generateStaticParams() {
   }
 }
 
-export default function DatasetPage({ params }: { params: { id: string } }) {
-  const id = typeof params?.id === "string" ? decodeURIComponent(params.id) : "";
+export default async function DatasetPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const resolvedParams = await params;
+  const id =
+    typeof resolvedParams?.id === "string" ? decodeURIComponent(resolvedParams.id) : "";
   return <DatasetPageClient id={id} />;
 }

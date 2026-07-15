@@ -24,6 +24,7 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
   const [points, setPoints] = useState<Point[]>([]);
   const [selected, setSelected] = useState<Point | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
   const pointsRef = useRef<Point[]>([]);
   const boundGdRef = useRef<any>(null);
   const handlerRef = useRef<((ev: any) => void) | null>(null);
@@ -32,12 +33,25 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
     if (!datasetId) return;
     setSelected(null);
     setErr(null);
+    setNotice(null);
 
-    const file = mapType === "tfidf" ? "comments_map_tfidf.json" : "comments_map_openai.json";
-    fetch(withBasePath(`/datasets/${encodeURIComponent(datasetId)}/${file}`))
-          .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
+    const loadPoints = async (file: string) => {
+      const r = await fetch(withBasePath(`/datasets/${encodeURIComponent(datasetId)}/${file}`));
+      if (!r.ok) {
+        const err = new Error(`HTTP ${r.status}`);
+        (err as Error & { status?: number }).status = r.status;
+        throw err;
+      }
+      return r.json();
+    };
+
+    loadPoints(mapType === "tfidf" ? "comments_map_tfidf.json" : "comments_map_openai.json")
+      .catch((e: Error & { status?: number }) => {
+        if (mapType === "openai" && e.status === 404) {
+          setNotice("Semantic map unavailable for this dataset. Showing TF-IDF instead.");
+          return loadPoints("comments_map_tfidf.json");
+        }
+        throw e;
       })
       .then((d) => {
         const cleaned = Array.isArray(d)
@@ -154,6 +168,9 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
   return (
     <div style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 16 }}>
       <div style={{ border: "1px solid #eee", borderRadius: 12, padding: 8 }}>
+        {notice ? (
+          <div style={{ marginBottom: 8, fontSize: 12, opacity: 0.75 }}>{notice}</div>
+        ) : null}
         <Plot
           key={`${datasetId}:${mapType}:${points.length}`}
           data={traces}

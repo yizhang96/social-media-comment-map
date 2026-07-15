@@ -38,6 +38,10 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
         run: npm run build
 
+      - name: Add GitHub Pages marker
+        working-directory: web
+        run: touch out/.nojekyll
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
