@@ -1,0 +1,308 @@
+{
+  "dataset_id": "example_demo",
+  "map_type": "tfidf",
+  "model": "gpt-5.6-terra",
+  "prompt_version": "cluster-label-v2",
+  "display_language": "same as the source comments",
+  "source_map_sha256": "f75260b2c5c48450871f87b565ebe4cf7002b69187f399330dc346dce2fb85b0",
+  "generated_at": "2026-08-13T05:32:37.066869+00:00",
+  "responses": {
+    "stage_a": "resp_08adb96e16490c99016a7d56e7ba448198b89590b1962cb7be",
+    "stage_b": "resp_0989ff183a1aab28016a7d56ed0fb0819bada077bc8a942816"
+  },
+  "stage_a_drafts": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Keeping in touch with classmates",
+      "summary": "Ongoing contact with classmates amid varied exchange experiences",
+      "keywords": [
+        "classmates",
+        "keeping in touch",
+        "worldview",
+        "resilience",
+        "language barriers",
+        "school differences"
+      ],
+      "representative_comment_ids": [
+        39,
+        36,
+        73,
+        11
+      ],
+      "confidence": 0.9
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Mixed exchange challenges",
+      "summary": "Homesickness, bureaucracy, finances, culture shock, and personal adjustment",
+      "keywords": [
+        "homesickness",
+        "bureaucracy",
+        "mental health",
+        "part-time work",
+        "culture shock",
+        "open-mindedness"
+      ],
+      "representative_comment_ids": [
+        87,
+        57,
+        49,
+        30
+      ],
+      "confidence": 0.74
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Growth and adjustment experiences",
+      "summary": "Personal growth alongside preparation, costs, uncertainty, and adaptation",
+      "keywords": [
+        "personal growth",
+        "preparation",
+        "job market",
+        "language barriers",
+        "administration",
+        "cost of living"
+      ],
+      "representative_comment_ids": [
+        28,
+        102,
+        81,
+        63
+      ],
+      "confidence": 0.72
+    },
+    "3": {
+      "cluster_id": 3,
+      "label": "Ambivalent retrospective evaluations",
+      "summary": "Mixed judgments, administrative strain, and reconsidered exchange decisions",
+      "keywords": [
+        "mixed feelings",
+        "administration",
+        "overrated",
+        "supportive community",
+        "choosing differently",
+        "social media"
+      ],
+      "representative_comment_ids": [
+        26,
+        13,
+        17,
+        75
+      ],
+      "confidence": 0.88
+    },
+    "4": {
+      "cluster_id": 4,
+      "label": "Career connections and friendships",
+      "summary": "Professional networking benefits and lasting friendships from exchange programs",
+      "keywords": [
+        "career connections",
+        "networking",
+        "lifelong friends",
+        "career benefits",
+        "classmates",
+        "personal growth"
+      ],
+      "representative_comment_ids": [
+        69,
+        54,
+        48,
+        4
+      ],
+      "confidence": 0.96
+    },
+    "5": {
+      "cluster_id": 5,
+      "label": "Growing up quickly",
+      "summary": "Accelerated maturity through routines, budgeting, uncertainty, and independence",
+      "keywords": [
+        "maturity",
+        "growing up",
+        "routine",
+        "budgeting",
+        "uncertainty",
+        "independence"
+      ],
+      "representative_comment_ids": [
+        33,
+        10,
+        51,
+        90
+      ],
+      "confidence": 0.91
+    },
+    "6": {
+      "cluster_id": 6,
+      "label": "Life-changing personal impact",
+      "summary": "Confidence, independence, perspectives, and transformative exchange experiences",
+      "keywords": [
+        "life-changing",
+        "confidence",
+        "independence",
+        "future",
+        "perspective",
+        "meeting people"
+      ],
+      "representative_comment_ids": [
+        53,
+        60,
+        19,
+        86
+      ],
+      "confidence": 0.82
+    }
+  },
+  "clusters": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Classmate contact",
+      "summary": "Ongoing contact with classmates after varied exchange experiences",
+      "keywords": [
+        "classmates",
+        "keeping in touch",
+        "exchange experiences"
+      ],
+      "representative_comment_ids": [
+        39,
+        36,
+        73,
+        11
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Repeated classmate-contact statement is the clear common pattern."
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Varied exchange experiences",
+      "summary": "Unrelated challenges, outcomes, and conversational prompts about exchange",
+      "keywords": [
+        "homesickness",
+        "bureaucracy",
+        "culture shock",
+        "finances",
+        "prompts"
+      ],
+      "representative_comment_ids": [
+        87,
+        57,
+        49,
+        30
+      ],
+      "confidence": 0.35,
+      "status": "mixed",
+      "overlaps_with": [
+        2
+      ],
+      "verification_note": "Examples span disparate topics; shared phrasing is largely a response prompt."
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Varied exchange experiences",
+      "summary": "Unrelated growth, adjustment, cost, and uncertainty experiences",
+      "keywords": [
+        "growth",
+        "adjustment",
+        "costs",
+        "uncertainty",
+        "preparation"
+      ],
+      "representative_comment_ids": [
+        28,
+        102,
+        81,
+        63
+      ],
+      "confidence": 0.31,
+      "status": "mixed",
+      "overlaps_with": [
+        1
+      ],
+      "verification_note": "No single substantive theme dominates beyond varied experiences and prompt wording."
+    },
+    "3": {
+      "cluster_id": 3,
+      "label": "Ambivalent retrospective views",
+      "summary": "Mixed evaluations and reconsideration of exchange decisions",
+      "keywords": [
+        "ambivalence",
+        "overrated",
+        "administration",
+        "choosing differently"
+      ],
+      "representative_comment_ids": [
+        26,
+        13,
+        17,
+        75
+      ],
+      "confidence": 0.89,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Ambivalence and retrospective reassessment consistently connect the examples."
+    },
+    "4": {
+      "cluster_id": 4,
+      "label": "Career connections",
+      "summary": "Professional networking benefits and lasting friendships from exchanges",
+      "keywords": [
+        "career connections",
+        "networking",
+        "lifelong friends"
+      ],
+      "representative_comment_ids": [
+        69,
+        54,
+        48,
+        4
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Career-helping connections are dominant, with friendship as a related benefit."
+    },
+    "5": {
+      "cluster_id": 5,
+      "label": "Accelerated maturity",
+      "summary": "Growing up quickly through varied exchange-related experiences",
+      "keywords": [
+        "growing up",
+        "maturity",
+        "budgeting",
+        "uncertainty"
+      ],
+      "representative_comment_ids": [
+        33,
+        10,
+        51,
+        90
+      ],
+      "confidence": 0.91,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "The repeated accelerated-maturity outcome provides a coherent central pattern."
+    },
+    "6": {
+      "cluster_id": 6,
+      "label": "Contrasting personal impacts",
+      "summary": "Life-changing and opposite reactions to varied exchange experiences",
+      "keywords": [
+        "life-changing",
+        "opposite experience",
+        "confidence",
+        "independence"
+      ],
+      "representative_comment_ids": [
+        53,
+        60,
+        19,
+        86
+      ],
+      "confidence": 0.52,
+      "status": "mixed",
+      "overlaps_with": [],
+      "verification_note": "The cluster combines opposing reaction framings with otherwise unrelated experiences."
+    }
+  }
+}

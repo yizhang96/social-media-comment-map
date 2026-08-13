@@ -3,6 +3,7 @@ load_dotenv()
 import os
 import json
 import math
+import hashlib
 import argparse
 from pathlib import Path
 
@@ -13,6 +14,7 @@ from tqdm import tqdm
 from sklearn.feature_extraction.text import TfidfVectorizer
 import umap
 import hdbscan
+from sklearn.metrics import silhouette_score
 
 
 
@@ -79,6 +81,30 @@ def main():
     parser.add_argument("--mode", choices=["tfidf", "openai"], default="tfidf")
     parser.add_argument("--openai_model", default=os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small"))
     parser.add_argument("--min_cluster_size", type=int, default=6)
+    parser.add_argument(
+        "--min_samples",
+        type=int,
+        default=None,
+        help="HDBSCAN min_samples (defaults to min_cluster_size)",
+    )
+    parser.add_argument(
+        "--cluster_dimensions",
+        type=int,
+        default=None,
+        help="UMAP dimensions used for clustering (TF-IDF defaults to 2; OpenAI to 15)",
+    )
+    parser.add_argument(
+        "--min_clusters",
+        type=int,
+        default=None,
+        help="Required cluster-count floor (TF-IDF defaults to 5; OpenAI has no floor)",
+    )
+    parser.add_argument("--random_state", type=int, default=42)
+    parser.add_argument(
+        "--refresh_embeddings",
+        action="store_true",
+        help="Ignore a compatible embedding cache and recompute embeddings",
+    )
     args = parser.parse_args()
 
     ds_root = ROOT / "data" / "datasets" / args.dataset
@@ -86,6 +112,8 @@ def main():
     in_csv = ds_root / "processed" / "comments_cleaned.csv"
     suffix = "openai" if args.mode == "openai" else "tfidf"
     out_json = ds_root / "processed" / f"comments_map_{suffix}.json"
+    embedding_cache = ds_root / "processed" / f"comments_embeddings_{suffix}.npz"
+    diagnostics_json = ds_root / "processed" / f"cluster_diagnostics_{suffix}.json"
 
     if in_csv.exists():
         df = pd.read_csv(in_csv).copy()
@@ -98,8 +126,12 @@ def main():
 
     # Stable id field
     if "seq" in df.columns and df["seq"].notna().any():
-        # pandas new versions: use ffill()
-        df["id"] = df["seq"].ffill().astype(int)
+        candidate_ids = df["seq"].ffill().astype(int)
+        if candidate_ids.is_unique:
+            df["id"] = candidate_ids
+        else:
+            print("Warning: seq contains duplicate ids; using stable row ids instead")
+            df["id"] = np.arange(1, len(df) + 1)
     else:
         df["id"] = np.arange(1, len(df) + 1)
 
@@ -107,32 +139,88 @@ def main():
     if "comment_text" not in df.columns:
         raise KeyError("comments_cleaned.* must contain a 'comment_text' column")
     texts = df["comment_text"].fillna("").astype(str).tolist()
+    text_hash = hashlib.sha256(
+        json.dumps(texts, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()
 
-    # Embedding
-    if args.mode == "openai":
-        X = embed_openai(texts, args.openai_model)
+    # Embeddings are cached so cluster candidates and labels can be evaluated
+    # without repeating paid embedding calls.
+    cached = None
+    if embedding_cache.exists() and not args.refresh_embeddings:
+        cached = np.load(embedding_cache, allow_pickle=False)
+        cached_ids = cached["ids"].astype(int)
+        cached_hash = str(cached["text_hash"].item()) if "text_hash" in cached else ""
+        current_ids = df["id"].to_numpy(dtype=int)
+        if np.array_equal(cached_ids, current_ids) and cached_hash == text_hash:
+            X = cached["embeddings"].astype(np.float32)
+            print(f"Using cached embeddings: {embedding_cache}")
+        else:
+            cached.close()
+            cached = None
+
+    if cached is None:
+        if args.mode == "openai":
+            X = embed_openai(texts, args.openai_model)
+        else:
+            X = embed_tfidf(texts)
+        np.savez_compressed(
+            embedding_cache,
+            embeddings=X.astype(np.float32),
+            ids=df["id"].to_numpy(dtype=int),
+            text_hash=np.array(text_hash),
+        )
+        print(f"Embedding cache written to {embedding_cache}")
     else:
-        X = embed_tfidf(texts)
+        cached.close()
 
-    # UMAP to 2D
-    reducer = umap.UMAP(
+    # The TF-IDF two-dimensional option clusters the visible lexical
+    # neighborhoods directly. Higher-dimensional and OpenAI configurations use
+    # a separate semantic projection for clustering.
+    requested_dimensions = args.cluster_dimensions or (2 if args.mode == "tfidf" else 15)
+    max_components = max(2, min(requested_dimensions, len(texts) - 2))
+    display_reducer = umap.UMAP(
         n_neighbors=15,
         min_dist=0.05,
         n_components=2,
         metric="cosine",
-        random_state=42
+        random_state=args.random_state,
     )
-    xy = reducer.fit_transform(X)
+    xy = display_reducer.fit_transform(X)
     df["x"] = xy[:, 0]
     df["y"] = xy[:, 1]
 
-    # Cluster in 2D
+    if args.mode == "tfidf" and max_components == 2:
+        cluster_space = xy
+        clustering_space = "umap_display"
+    else:
+        cluster_reducer = umap.UMAP(
+            n_neighbors=15,
+            min_dist=0.0,
+            n_components=max_components,
+            metric="cosine",
+            random_state=args.random_state,
+        )
+        cluster_space = cluster_reducer.fit_transform(X)
+        clustering_space = "umap_semantic"
+
+    # Cluster in the selected projection.
     clusterer = hdbscan.HDBSCAN(
         min_cluster_size=args.min_cluster_size,
-        metric="euclidean"
+        min_samples=args.min_samples,
+        metric="euclidean",
+        prediction_data=True,
     )
-    labels = clusterer.fit_predict(xy)
+    labels = clusterer.fit_predict(cluster_space)
     df["cluster_id"] = labels
+
+    n_clusters = len(set(labels) - {-1})
+    min_clusters = args.min_clusters if args.min_clusters is not None else (5 if args.mode == "tfidf" else 0)
+    if n_clusters < min_clusters:
+        raise RuntimeError(
+            f"{args.mode} clustering produced {n_clusters} clusters, below the "
+            f"required minimum of {min_clusters}. Choose an eligible candidate "
+            "from scripts/11_evaluate_cluster_candidates.py."
+        )
 
     # Build strict JSON records (no NaN)
     records = []
@@ -180,8 +268,47 @@ def main():
     )
 
     n_noise = sum(1 for rec in records if rec["cluster_id"] == -1)
-    n_clusters = len(set(rec["cluster_id"] for rec in records if rec["cluster_id"] >= 0))
+    clustered_mask = labels >= 0
+    silhouette = None
+    if n_clusters >= 2 and clustered_mask.sum() > n_clusters:
+        silhouette = float(
+            silhouette_score(cluster_space[clustered_mask], labels[clustered_mask])
+        )
+    diagnostics = {
+        "dataset_id": args.dataset,
+        "map_type": suffix,
+        "embedding_model": args.openai_model if args.mode == "openai" else "tfidf",
+        "clustering": {
+            "algorithm": "hdbscan",
+            "space": clustering_space,
+            "dimensions": max_components,
+            "min_cluster_size": args.min_cluster_size,
+            "min_samples": args.min_samples,
+            "min_clusters": min_clusters,
+            "random_state": args.random_state,
+        },
+        "n_points": len(records),
+        "n_clusters": n_clusters,
+        "n_noise": n_noise,
+        "noise_fraction": n_noise / len(records) if records else 0.0,
+        "silhouette_clustered": silhouette,
+        "mean_cluster_persistence": (
+            float(np.mean(clusterer.cluster_persistence_))
+            if len(clusterer.cluster_persistence_)
+            else None
+        ),
+        "cluster_sizes": {
+            str(cluster_id): int(np.sum(labels == cluster_id))
+            for cluster_id in sorted(set(labels))
+            if cluster_id >= 0
+        },
+    }
+    diagnostics_json.write_text(
+        json.dumps(diagnostics, ensure_ascii=False, indent=2, allow_nan=False),
+        encoding="utf-8",
+    )
     print(f"✅ Map written to {out_json} ({len(records)} points; clusters={n_clusters}; noise={n_noise})")
+    print(f"✅ Diagnostics written to {diagnostics_json}")
 
 
 if __name__ == "__main__":

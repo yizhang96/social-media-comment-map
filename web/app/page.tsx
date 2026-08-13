@@ -5,7 +5,7 @@ export default function Page() {
     <main style={{ padding: 24 }}>
       <h1 style={{ fontSize: 20, fontWeight: 600, margin: 0 }}>Social Media Comment Map</h1>
       <p style={{ marginTop: 8, opacity: 0.75 }}>
-        Choose a dataset to view its semantic map (default) or TF-IDF map.
+        Choose a dataset below to explore the underlying structure of its social media comment space.
       </p>
       <div style={{ marginTop: 16 }}>
         <DatasetList />

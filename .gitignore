@@ -12,6 +12,7 @@ archive_data/
 web/node_modules/
 web/.next/
 web/out/
+web/*.tsbuildinfo
 
 # OS
 .DS_Store
@@ -19,3 +20,8 @@ web/out/
 # generated artifacts (optional)
 # data/datasets/**/processed/comments_cleaned.xlsx
 # data/datasets/**/processed/comments_map.json
+data/datasets/**/processed/comments_embeddings_*.npz
+data/datasets/**/processed/cluster_candidates_*.json
+data/datasets/**/processed/cluster_diagnostics_*.json
+data/datasets/**/processed/cluster_label_evidence_*.json
+handoff.md

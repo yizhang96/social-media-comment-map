@@ -6,9 +6,9 @@
     "time": "Yesterday 21:14",
     "location": "Hong Kong",
     "user": "游99",
-    "x": 7.386136054992676,
-    "y": 6.537522792816162,
-    "cluster_id": 4
+    "x": 4.942404747009277,
+    "y": 6.084402561187744,
+    "cluster_id": 2
   },
   {
     "id": 2,
@@ -17,9 +17,9 @@
     "time": "Yesterday 23:48",
     "location": "Hubei",
     "user": "今天早睡了吗",
-    "x": 7.355171203613281,
-    "y": 6.043822288513184,
-    "cluster_id": -1
+    "x": 5.242090225219727,
+    "y": 5.694253444671631,
+    "cluster_id": 2
   },
   {
     "id": 3,
@@ -28,9 +28,9 @@
     "time": "Yesterday 01:31",
     "location": "Sichuan",
     "user": "巴一刀",
-    "x": 8.677726745605469,
-    "y": 5.171501636505127,
-    "cluster_id": 1
+    "x": 6.598819732666016,
+    "y": 5.658181667327881,
+    "cluster_id": 0
   },
   {
     "id": 4,
@@ -39,9 +39,9 @@
     "time": "Yesterday 12:03",
     "location": "United States",
     "user": "奇异果大侠",
-    "x": 4.674981594085693,
-    "y": 6.34074592590332,
-    "cluster_id": 0
+    "x": 2.60994029045105,
+    "y": 5.380258560180664,
+    "cluster_id": 3
   },
   {
     "id": 5,
@@ -50,9 +50,9 @@
     "time": "Yesterday 14:26",
     "location": "Australia",
     "user": "糖糖教教主糖小包",
-    "x": 6.123653888702393,
-    "y": 6.089714527130127,
-    "cluster_id": -1
+    "x": 3.7433512210845947,
+    "y": 5.1468281745910645,
+    "cluster_id": 2
   },
   {
     "id": 6,
@@ -61,9 +61,9 @@
     "time": "Yesterday 23:38",
     "location": "Heilongjiang",
     "user": "123456789123456789123456",
-    "x": 7.200789928436279,
-    "y": 7.20921516418457,
-    "cluster_id": 4
+    "x": 4.559975624084473,
+    "y": 6.717226505279541,
+    "cluster_id": 2
   },
   {
     "id": 7,
@@ -72,9 +72,9 @@
     "time": "Yesterday 18:10",
     "location": "Guangdong",
     "user": "气球小猪TiTi",
-    "x": 6.518678665161133,
-    "y": 3.2805681228637695,
-    "cluster_id": 6
+    "x": 5.66630220413208,
+    "y": 3.6130614280700684,
+    "cluster_id": -1
   },
   {
     "id": 8,
@@ -83,9 +83,9 @@
     "time": "Yesterday 19:46",
     "location": "Hong Kong",
     "user": "小太阳",
-    "x": 5.691751003265381,
-    "y": 5.930586338043213,
-    "cluster_id": -1
+    "x": 3.5744380950927734,
+    "y": 5.124560356140137,
+    "cluster_id": 2
   },
   {
     "id": 9,
@@ -94,9 +94,9 @@
     "time": "8 minutes ago",
     "location": "Hong Kong",
     "user": "一二三",
-    "x": 7.3565592765808105,
-    "y": 6.768312931060791,
-    "cluster_id": 4
+    "x": 4.817867279052734,
+    "y": 6.3390092849731445,
+    "cluster_id": 2
   },
   {
     "id": 10,
@@ -105,9 +105,9 @@
     "time": "Yesterday 14:20",
     "location": "United Kingdom",
     "user": "灰化百香果",
-    "x": 7.3717145919799805,
-    "y": 6.843206882476807,
-    "cluster_id": 4
+    "x": 4.719027042388916,
+    "y": 6.120758533477783,
+    "cluster_id": 2
   },
   {
     "id": 11,
@@ -116,9 +116,9 @@
     "time": "15 hours ago",
     "location": "Canada",
     "user": "薄荷吉利丁",
-    "x": 7.092416763305664,
-    "y": 7.14607048034668,
-    "cluster_id": 4
+    "x": 4.38967227935791,
+    "y": 6.371517181396484,
+    "cluster_id": 2
   },
   {
     "id": 12,
@@ -127,9 +127,9 @@
     "time": "9 minutes ago",
     "location": "Guangdong",
     "user": "你走了我们吃什么",
-    "x": 7.45001220703125,
-    "y": 6.762908458709717,
-    "cluster_id": 4
+    "x": 4.7573771476745605,
+    "y": 6.394537448883057,
+    "cluster_id": 2
   },
   {
     "id": 13,
@@ -138,8 +138,8 @@
     "time": "11 hours ago",
     "location": "Hong Kong",
     "user": "今天喝茶了吗",
-    "x": 6.2368950843811035,
-    "y": 3.1397831439971924,
+    "x": 5.295304298400879,
+    "y": 3.394597291946411,
     "cluster_id": 6
   },
   {
@@ -149,9 +149,9 @@
     "time": "34 minutes ago",
     "location": "Shandong",
     "user": "理性多一点",
-    "x": 7.419275760650635,
-    "y": 7.328170299530029,
-    "cluster_id": 4
+    "x": 4.784363746643066,
+    "y": 6.953324317932129,
+    "cluster_id": 2
   },
   {
     "id": 15,
@@ -160,8 +160,8 @@
     "time": "Yesterday 09:29",
     "location": "Canada",
     "user": "momo",
-    "x": 6.890028953552246,
-    "y": 3.4181506633758545,
+    "x": 5.967933177947998,
+    "y": 3.6000678539276123,
     "cluster_id": -1
   },
   {
@@ -171,8 +171,8 @@
     "time": "32 minutes ago",
     "location": "Hebei",
     "user": "小红薕65BAD31B",
-    "x": 8.84688949584961,
-    "y": 5.728826522827148,
+    "x": 6.926891326904297,
+    "y": 6.089966773986816,
     "cluster_id": -1
   },
   {
@@ -182,9 +182,9 @@
     "time": "Yesterday 21:37",
     "location": "Shandong",
     "user": "啊吧啊吧",
-    "x": 6.228723526000977,
-    "y": 5.960969924926758,
-    "cluster_id": -1
+    "x": 4.128819942474365,
+    "y": 4.880321502685547,
+    "cluster_id": 2
   },
   {
     "id": 18,
@@ -193,9 +193,9 @@
     "time": "20 hours ago",
     "location": "Georgia",
     "user": "烂花剩手",
-    "x": 5.975035190582275,
-    "y": 6.191990375518799,
-    "cluster_id": -1
+    "x": 3.6364424228668213,
+    "y": 5.142662525177002,
+    "cluster_id": 2
   },
   {
     "id": 19,
@@ -204,9 +204,9 @@
     "time": "Yesterday 19:05",
     "location": "Shanghai",
     "user": "momo",
-    "x": 5.063316822052002,
-    "y": 4.407286643981934,
-    "cluster_id": 0
+    "x": 3.4507012367248535,
+    "y": 3.926071882247925,
+    "cluster_id": 5
   },
   {
     "id": 20,
@@ -215,9 +215,9 @@
     "time": "Yesterday 19:07",
     "location": "Shanghai",
     "user": "momo",
-    "x": 8.359699249267578,
-    "y": 5.0158820152282715,
-    "cluster_id": 1
+    "x": 6.807919979095459,
+    "y": 5.482391834259033,
+    "cluster_id": 0
   },
   {
     "id": 21,
@@ -226,8 +226,8 @@
     "time": "8 hours ago",
     "location": "Germany",
     "user": "ALUER~",
-    "x": 8.601587295532227,
-    "y": 6.836204528808594,
+    "x": 5.844142913818359,
+    "y": 6.718811988830566,
     "cluster_id": -1
   },
   {
@@ -237,9 +237,9 @@
     "time": "1 day ago",
     "location": "Shanxi",
     "user": "X大侠",
-    "x": 7.542505741119385,
-    "y": 6.956899166107178,
-    "cluster_id": 4
+    "x": 5.2431793212890625,
+    "y": 6.409883499145508,
+    "cluster_id": 2
   },
   {
     "id": 23,
@@ -248,8 +248,8 @@
     "time": "Yesterday 14:00",
     "location": "Canada",
     "user": "兔纸",
-    "x": 6.386929512023926,
-    "y": 4.1944451332092285,
+    "x": 5.11057186126709,
+    "y": 4.120882034301758,
     "cluster_id": -1
   },
   {
@@ -259,8 +259,8 @@
     "time": "2 hours ago",
     "location": "Jiangsu",
     "user": "吃了会瘦的白芝豆",
-    "x": 6.587760925292969,
-    "y": 4.549866676330566,
+    "x": 5.006229877471924,
+    "y": 4.227396488189697,
     "cluster_id": -1
   },
   {
@@ -270,9 +270,9 @@
     "time": "1 hours ago",
     "location": "Australia",
     "user": "Sally",
-    "x": 8.434112548828125,
-    "y": 5.5467848777771,
-    "cluster_id": 1
+    "x": 6.362119197845459,
+    "y": 5.938690662384033,
+    "cluster_id": 0
   },
   {
     "id": 26,
@@ -281,9 +281,9 @@
     "time": "Yesterday 11:47",
     "location": "France",
     "user": "À la prochaine",
-    "x": 6.678890705108643,
-    "y": 3.2325971126556396,
-    "cluster_id": -1
+    "x": 5.732860565185547,
+    "y": 3.4887022972106934,
+    "cluster_id": 6
   },
   {
     "id": 27,
@@ -292,9 +292,9 @@
     "time": "Yesterday 11:49",
     "location": "France",
     "user": "À la prochaine",
-    "x": 7.8394012451171875,
-    "y": 6.589011192321777,
-    "cluster_id": 4
+    "x": 5.2846760749816895,
+    "y": 6.152657985687256,
+    "cluster_id": 2
   },
   {
     "id": 28,
@@ -303,9 +303,9 @@
     "time": "Yesterday 20:37",
     "location": "Shanghai",
     "user": "Mr.陳",
-    "x": 9.095940589904785,
-    "y": 6.653555870056152,
-    "cluster_id": 3
+    "x": 6.318440914154053,
+    "y": 7.712490558624268,
+    "cluster_id": 1
   },
   {
     "id": 29,
@@ -314,9 +314,9 @@
     "time": "Yesterday 21:30",
     "location": "Beijing",
     "user": "建材李哥668",
-    "x": 4.753962993621826,
-    "y": 6.403030872344971,
-    "cluster_id": 0
+    "x": 2.6071395874023438,
+    "y": 5.357110500335693,
+    "cluster_id": 3
   },
   {
     "id": 30,
@@ -325,9 +325,9 @@
     "time": "2 hours ago",
     "location": "Beijing",
     "user": "z52527",
-    "x": 6.431121349334717,
-    "y": 6.102417469024658,
-    "cluster_id": -1
+    "x": 4.013073444366455,
+    "y": 5.3268609046936035,
+    "cluster_id": 2
   },
   {
     "id": 31,
@@ -336,9 +336,9 @@
     "time": "2 hours ago",
     "location": "Fujian",
     "user": "小红薕6793AE23",
-    "x": 4.731391429901123,
-    "y": 6.365015506744385,
-    "cluster_id": 0
+    "x": 2.654052257537842,
+    "y": 5.409850120544434,
+    "cluster_id": 3
   },
   {
     "id": 32,
@@ -347,9 +347,9 @@
     "time": "Yesterday 17:12",
     "location": "United States",
     "user": "野原",
-    "x": 6.870265960693359,
-    "y": 6.921535968780518,
-    "cluster_id": 4
+    "x": 4.259662628173828,
+    "y": 6.337529182434082,
+    "cluster_id": 2
   },
   {
     "id": 33,
@@ -358,9 +358,9 @@
     "time": "13 hours ago",
     "location": "Shanghai",
     "user": "云吃吃的阅食行记",
-    "x": 4.9022111892700195,
-    "y": 6.553884983062744,
-    "cluster_id": 0
+    "x": 2.8950395584106445,
+    "y": 5.639189720153809,
+    "cluster_id": 3
   },
   {
     "id": 34,
@@ -369,9 +369,9 @@
     "time": "1 hours ago",
     "location": "Shanxi",
     "user": "枕月眠",
-    "x": 6.982203483581543,
-    "y": 7.240200519561768,
-    "cluster_id": 4
+    "x": 4.306802272796631,
+    "y": 6.5696539878845215,
+    "cluster_id": 2
   },
   {
     "id": 35,
@@ -380,9 +380,9 @@
     "time": "1 hours ago",
     "location": "Australia",
     "user": "Sally",
-    "x": 7.002476692199707,
-    "y": 6.567512512207031,
-    "cluster_id": 4
+    "x": 4.571592807769775,
+    "y": 5.935374736785889,
+    "cluster_id": 2
   },
   {
     "id": 36,
@@ -391,9 +391,9 @@
     "time": "Yesterday 18:48",
     "location": "Henan",
     "user": "小比熊蹦蹦",
-    "x": 6.818596839904785,
-    "y": 6.779901027679443,
-    "cluster_id": 4
+    "x": 4.313133239746094,
+    "y": 6.044997692108154,
+    "cluster_id": 2
   },
   {
     "id": 37,
@@ -402,9 +402,9 @@
     "time": "Yesterday 10:41",
     "location": "Canada",
     "user": "momo",
-    "x": 7.623167037963867,
-    "y": 6.413773536682129,
-    "cluster_id": 4
+    "x": 5.0864481925964355,
+    "y": 6.174722671508789,
+    "cluster_id": 2
   },
   {
     "id": 38,
@@ -413,9 +413,9 @@
     "time": "2 days ago",
     "location": "Shanghai",
     "user": "葡萄啵啵茶",
-    "x": 7.361063003540039,
-    "y": 7.466763496398926,
-    "cluster_id": 4
+    "x": 4.557173728942871,
+    "y": 6.854787826538086,
+    "cluster_id": 2
   },
   {
     "id": 39,
@@ -424,9 +424,9 @@
     "time": "2 days ago",
     "location": "United States",
     "user": "米米",
-    "x": 7.1931352615356445,
-    "y": 7.41163969039917,
-    "cluster_id": 4
+    "x": 4.389228820800781,
+    "y": 6.9015936851501465,
+    "cluster_id": 2
   },
   {
     "id": 40,
@@ -435,9 +435,9 @@
     "time": "13 hours ago",
     "location": "United States",
     "user": "小红薕65c82a8000000001f018cb7",
-    "x": 7.976931571960449,
-    "y": 7.100066661834717,
-    "cluster_id": 4
+    "x": 5.186408042907715,
+    "y": 6.7839508056640625,
+    "cluster_id": 2
   },
   {
     "id": 41,
@@ -446,9 +446,9 @@
     "time": "12 hours ago",
     "location": "United States",
     "user": "Eva学姐_Data留学",
-    "x": 7.8745317459106445,
-    "y": 7.056910514831543,
-    "cluster_id": 4
+    "x": 5.231093406677246,
+    "y": 6.62245512008667,
+    "cluster_id": 2
   },
   {
     "id": 42,
@@ -457,9 +457,9 @@
     "time": "4 hours ago",
     "location": "Guangdong",
     "user": "星稀",
-    "x": 7.597509860992432,
-    "y": 7.319533348083496,
-    "cluster_id": 4
+    "x": 4.766249656677246,
+    "y": 6.7574076652526855,
+    "cluster_id": 2
   },
   {
     "id": 43,
@@ -468,9 +468,9 @@
     "time": "1 hours ago",
     "location": "Anhui",
     "user": "CJR088",
-    "x": 5.17553186416626,
-    "y": 6.396694660186768,
-    "cluster_id": 0
+    "x": 3.15057110786438,
+    "y": 5.524691104888916,
+    "cluster_id": 3
   },
   {
     "id": 44,
@@ -479,8 +479,8 @@
     "time": "Yesterday 14:36",
     "location": "Spain",
     "user": "Bebé del melocotón",
-    "x": 6.162516117095947,
-    "y": 2.9906105995178223,
+    "x": 5.137256145477295,
+    "y": 3.6330173015594482,
     "cluster_id": 6
   },
   {
@@ -490,8 +490,8 @@
     "time": "Yesterday 22:58",
     "location": "Guangdong",
     "user": "Lily",
-    "x": 6.9723687171936035,
-    "y": 3.7886548042297363,
+    "x": 5.867140769958496,
+    "y": 4.071327209472656,
     "cluster_id": -1
   },
   {
@@ -501,9 +501,9 @@
     "time": "15 hours ago",
     "location": "Tianjin",
     "user": "Offer蛙必有offer",
-    "x": 4.821131706237793,
-    "y": 6.507185935974121,
-    "cluster_id": 0
+    "x": 2.6472158432006836,
+    "y": 5.4108567237854,
+    "cluster_id": 3
   },
   {
     "id": 47,
@@ -512,9 +512,9 @@
     "time": "1 hours ago",
     "location": "Zhejiang",
     "user": "桥岸泥",
-    "x": 7.705529689788818,
-    "y": 6.532338619232178,
-    "cluster_id": 4
+    "x": 5.232890605926514,
+    "y": 6.260018825531006,
+    "cluster_id": 2
   },
   {
     "id": 48,
@@ -523,9 +523,9 @@
     "time": "1 hours ago",
     "location": "Liaoning",
     "user": "IVYVI",
-    "x": 4.818973541259766,
-    "y": 6.506189823150635,
-    "cluster_id": 0
+    "x": 2.7441654205322266,
+    "y": 5.495866775512695,
+    "cluster_id": 3
   },
   {
     "id": 49,
@@ -534,9 +534,9 @@
     "time": "4 hours ago",
     "location": "Qatar",
     "user": "沫光微浅",
-    "x": 8.607501983642578,
-    "y": 4.898360252380371,
-    "cluster_id": 1
+    "x": 7.119242191314697,
+    "y": 5.677675724029541,
+    "cluster_id": 0
   },
   {
     "id": 50,
@@ -545,9 +545,9 @@
     "time": "7 hours ago",
     "location": "Jiangsu",
     "user": "灯喵喵",
-    "x": 4.158979415893555,
-    "y": 5.610352993011475,
-    "cluster_id": 0
+    "x": 2.3822548389434814,
+    "y": 4.713943958282471,
+    "cluster_id": 3
   },
   {
     "id": 51,
@@ -556,9 +556,9 @@
     "time": "7 hours ago",
     "location": "Jiangsu",
     "user": "灯塔咩咩",
-    "x": 4.1957268714904785,
-    "y": 5.696102619171143,
-    "cluster_id": 0
+    "x": 2.324190855026245,
+    "y": 4.706371307373047,
+    "cluster_id": 3
   },
   {
     "id": 52,
@@ -567,9 +567,9 @@
     "time": "5 hours ago",
     "location": "Shandong",
     "user": "SummerToToTo",
-    "x": 6.868654251098633,
-    "y": 6.747952938079834,
-    "cluster_id": 4
+    "x": 4.559818744659424,
+    "y": 5.973329067230225,
+    "cluster_id": 2
   },
   {
     "id": 53,
@@ -578,9 +578,9 @@
     "time": "20 hours ago",
     "location": "Australia",
     "user": "布朗熊",
-    "x": 6.828467845916748,
-    "y": 2.840986490249634,
-    "cluster_id": 5
+    "x": 5.97242546081543,
+    "y": 3.1060574054718018,
+    "cluster_id": 7
   },
   {
     "id": 54,
@@ -589,9 +589,9 @@
     "time": "11 hours ago",
     "location": "Australia",
     "user": "吉良吉影想过平静的生活",
-    "x": 7.55578088760376,
-    "y": 7.37216329574585,
-    "cluster_id": 4
+    "x": 4.875389099121094,
+    "y": 6.989691734313965,
+    "cluster_id": 2
   },
   {
     "id": 55,
@@ -600,9 +600,9 @@
     "time": "1 hours ago",
     "location": "Taiwan",
     "user": "7777733338",
-    "x": 6.538928985595703,
-    "y": 6.689610004425049,
-    "cluster_id": 4
+    "x": 4.011291027069092,
+    "y": 5.853374004364014,
+    "cluster_id": 2
   },
   {
     "id": 56,
@@ -611,9 +611,9 @@
     "time": "13 hours ago",
     "location": "United States",
     "user": "小葱阿姨爱做饭",
-    "x": 8.638849258422852,
-    "y": 5.107977867126465,
-    "cluster_id": 1
+    "x": 6.822417259216309,
+    "y": 5.5355987548828125,
+    "cluster_id": 0
   },
   {
     "id": 57,
@@ -622,9 +622,9 @@
     "time": "2 hours ago",
     "location": "Germany",
     "user": "米娅的小院儿",
-    "x": 7.589476108551025,
-    "y": 5.862551212310791,
-    "cluster_id": -1
+    "x": 5.372500896453857,
+    "y": 5.65949010848999,
+    "cluster_id": 2
   },
   {
     "id": 58,
@@ -633,8 +633,8 @@
     "time": "2 hours ago",
     "location": "United States",
     "user": "星野_",
-    "x": 6.482879638671875,
-    "y": 4.392426013946533,
+    "x": 5.043092250823975,
+    "y": 4.128399848937988,
     "cluster_id": -1
   },
   {
@@ -644,9 +644,9 @@
     "time": "16 hours ago",
     "location": "Canada",
     "user": "Leona不吃草",
-    "x": 8.849287986755371,
-    "y": 7.134244441986084,
-    "cluster_id": 3
+    "x": 6.520216464996338,
+    "y": 7.168376445770264,
+    "cluster_id": 1
   },
   {
     "id": 60,
@@ -655,9 +655,9 @@
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "皮皮熊猫",
-    "x": 8.775886535644531,
-    "y": 4.378911018371582,
-    "cluster_id": 1
+    "x": 7.415989398956299,
+    "y": 5.397354602813721,
+    "cluster_id": 0
   },
   {
     "id": 61,
@@ -666,9 +666,9 @@
     "time": "1 hours ago",
     "location": "Germany",
     "user": "Minisue苏苏子",
-    "x": 7.937218189239502,
-    "y": 7.313495635986328,
-    "cluster_id": 4
+    "x": 5.439937591552734,
+    "y": 7.034585952758789,
+    "cluster_id": 2
   },
   {
     "id": 62,
@@ -677,9 +677,9 @@
     "time": "14 hours ago",
     "location": "Australia",
     "user": "山有流云",
-    "x": 7.839453220367432,
-    "y": 6.793259143829346,
-    "cluster_id": 4
+    "x": 5.3524169921875,
+    "y": 6.561959743499756,
+    "cluster_id": 2
   },
   {
     "id": 63,
@@ -688,9 +688,9 @@
     "time": "22 hours ago",
     "location": "Australia",
     "user": "会发光的七七",
-    "x": 8.645862579345703,
-    "y": 7.070493698120117,
-    "cluster_id": 3
+    "x": 6.284164905548096,
+    "y": 7.008016586303711,
+    "cluster_id": 1
   },
   {
     "id": 64,
@@ -699,8 +699,8 @@
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "Sylvia8383",
-    "x": 4.913877010345459,
-    "y": 2.4438679218292236,
+    "x": 3.9519519805908203,
+    "y": 2.4310953617095947,
     "cluster_id": -1
   },
   {
@@ -710,9 +710,9 @@
     "time": "13 hours ago",
     "location": "United Kingdom",
     "user": "落落与路",
-    "x": 5.003523349761963,
-    "y": 2.942382335662842,
-    "cluster_id": 6
+    "x": 3.9735968112945557,
+    "y": 2.370342493057251,
+    "cluster_id": -1
   },
   {
     "id": 66,
@@ -721,8 +721,8 @@
     "time": "21 hours ago",
     "location": "Australia",
     "user": "甜甜🧸",
-    "x": 8.325231552124023,
-    "y": 6.121016025543213,
+    "x": 6.036128044128418,
+    "y": 6.305522441864014,
     "cluster_id": -1
   },
   {
@@ -732,8 +732,8 @@
     "time": "12 hours ago",
     "location": "Germany",
     "user": "爱吃饭的杨小胖",
-    "x": 5.560023784637451,
-    "y": 2.521280288696289,
+    "x": 4.897073745727539,
+    "y": 2.839512586593628,
     "cluster_id": 6
   },
   {
@@ -743,9 +743,9 @@
     "time": "23 hours ago",
     "location": "Canada",
     "user": "小星星",
-    "x": 8.688092231750488,
-    "y": 4.69317102432251,
-    "cluster_id": 1
+    "x": 6.971792221069336,
+    "y": 5.388004302978516,
+    "cluster_id": 0
   },
   {
     "id": 69,
@@ -754,9 +754,9 @@
     "time": "1 hours ago",
     "location": "United Kingdom",
     "user": "美樂塔",
-    "x": 9.251052856445312,
-    "y": 7.304248809814453,
-    "cluster_id": 3
+    "x": 6.63822603225708,
+    "y": 7.517938137054443,
+    "cluster_id": 1
   },
   {
     "id": 70,
@@ -765,8 +765,8 @@
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "Heidy",
-    "x": 5.077981948852539,
-    "y": 3.1717700958251953,
+    "x": 3.891408920288086,
+    "y": 2.8081023693084717,
     "cluster_id": -1
   },
   {
@@ -776,9 +776,9 @@
     "time": "22 hours ago",
     "location": "United States",
     "user": "Momo",
-    "x": 4.1481242179870605,
-    "y": 5.765639305114746,
-    "cluster_id": 0
+    "x": 2.41558575630188,
+    "y": 4.579028129577637,
+    "cluster_id": 3
   },
   {
     "id": 72,
@@ -787,8 +787,8 @@
     "time": "20 hours ago",
     "location": "United States",
     "user": "咩咩咩咩咩阿",
-    "x": 5.5025739669799805,
-    "y": 2.7605440616607666,
+    "x": 4.805902481079102,
+    "y": 2.9440817832946777,
     "cluster_id": 6
   },
   {
@@ -798,9 +798,9 @@
     "time": "18 hours ago",
     "location": "Australia",
     "user": "小红薯6F9FFA39",
-    "x": 4.235283851623535,
-    "y": 5.731179714202881,
-    "cluster_id": 0
+    "x": 2.418815851211548,
+    "y": 4.761331558227539,
+    "cluster_id": 3
   },
   {
     "id": 74,
@@ -809,9 +809,9 @@
     "time": "7 hours ago",
     "location": "United States",
     "user": "Yuririn",
-    "x": 6.3105950355529785,
-    "y": 6.701488494873047,
-    "cluster_id": 4
+    "x": 3.7948153018951416,
+    "y": 5.675683975219727,
+    "cluster_id": 2
   },
   {
     "id": 75,
@@ -820,9 +820,9 @@
     "time": "2 days ago",
     "location": "Canada",
     "user": "SenTTTT",
-    "x": 5.4223198890686035,
-    "y": 3.4423747062683105,
-    "cluster_id": -1
+    "x": 4.084283828735352,
+    "y": 3.233466148376465,
+    "cluster_id": 6
   },
   {
     "id": 76,
@@ -831,9 +831,9 @@
     "time": "10 hours ago",
     "location": "Canada",
     "user": "Daisy",
-    "x": 8.72731876373291,
-    "y": 6.174647808074951,
-    "cluster_id": 1
+    "x": 6.588215351104736,
+    "y": 6.5344672203063965,
+    "cluster_id": -1
   },
   {
     "id": 77,
@@ -842,9 +842,9 @@
     "time": "21 hours ago",
     "location": "Germany",
     "user": "长颈鹿不抬头",
-    "x": 7.499844551086426,
-    "y": 5.860420227050781,
-    "cluster_id": -1
+    "x": 5.274667739868164,
+    "y": 5.668040752410889,
+    "cluster_id": 2
   },
   {
     "id": 78,
@@ -853,9 +853,9 @@
     "time": "1 day ago",
     "location": "Beijing",
     "user": "小艾哥在路上",
-    "x": 7.241119384765625,
-    "y": 7.3440423011779785,
-    "cluster_id": 4
+    "x": 4.929150104522705,
+    "y": 6.916398525238037,
+    "cluster_id": 2
   },
   {
     "id": 79,
@@ -864,9 +864,9 @@
     "time": "1 day ago",
     "location": "United States",
     "user": "小红薯678D4CA3",
-    "x": 7.620159149169922,
-    "y": 7.433468341827393,
-    "cluster_id": 4
+    "x": 4.810773849487305,
+    "y": 6.964480400085449,
+    "cluster_id": 2
   },
   {
     "id": 80,
@@ -875,9 +875,9 @@
     "time": "18 hours ago",
     "location": "United Kingdom",
     "user": "莎莎酱",
-    "x": 8.20897388458252,
-    "y": 6.627653121948242,
-    "cluster_id": 4
+    "x": 5.67798376083374,
+    "y": 6.347060680389404,
+    "cluster_id": 2
   },
   {
     "id": 81,
@@ -886,8 +886,8 @@
     "time": "23 hours ago",
     "location": "United Kingdom",
     "user": "陈一朵",
-    "x": 5.246066093444824,
-    "y": 2.486825942993164,
+    "x": 4.649162769317627,
+    "y": 2.43216609954834,
     "cluster_id": 6
   },
   {
@@ -897,9 +897,9 @@
     "time": "7 hours ago",
     "location": "United Kingdom",
     "user": "尐莮",
-    "x": 4.407618999481201,
-    "y": 5.526294708251953,
-    "cluster_id": 0
+    "x": 2.546623706817627,
+    "y": 4.584498882293701,
+    "cluster_id": 3
   },
   {
     "id": 83,
@@ -908,9 +908,9 @@
     "time": "18 hours ago",
     "location": "United Kingdom",
     "user": "洋葱圈",
-    "x": 4.246761798858643,
-    "y": 5.8173723220825195,
-    "cluster_id": 0
+    "x": 2.370194911956787,
+    "y": 4.743114471435547,
+    "cluster_id": 3
   },
   {
     "id": 84,
@@ -919,8 +919,8 @@
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "小熊饼干盒子",
-    "x": 5.915476322174072,
-    "y": 2.0929811000823975,
+    "x": 5.171263694763184,
+    "y": 2.4007558822631836,
     "cluster_id": 6
   },
   {
@@ -930,8 +930,8 @@
     "time": "2 days ago",
     "location": "United States",
     "user": "Zoey",
-    "x": 8.003009796142578,
-    "y": 4.416615962982178,
+    "x": 6.153543949127197,
+    "y": 5.201377868652344,
     "cluster_id": -1
   },
   {
@@ -941,8 +941,8 @@
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "啦啦啦拉拉",
-    "x": 6.196392059326172,
-    "y": 3.1064419746398926,
+    "x": 5.4423651695251465,
+    "y": 3.5104730129241943,
     "cluster_id": 6
   },
   {
@@ -952,9 +952,9 @@
     "time": "22 hours ago",
     "location": "Canada",
     "user": "小红薯69E8B8C4",
-    "x": 4.347182750701904,
-    "y": 2.852383852005005,
-    "cluster_id": -1
+    "x": 3.3256006240844727,
+    "y": 2.2182295322418213,
+    "cluster_id": 4
   },
   {
     "id": 88,
@@ -963,9 +963,9 @@
     "time": "1 day ago",
     "location": "United States",
     "user": "Rena",
-    "x": 4.878799915313721,
-    "y": 4.543203353881836,
-    "cluster_id": 0
+    "x": 3.121499538421631,
+    "y": 3.7948625087738037,
+    "cluster_id": 5
   },
   {
     "id": 89,
@@ -974,9 +974,9 @@
     "time": "13 hours ago",
     "location": "United Kingdom",
     "user": "林深时见鹿_",
-    "x": 8.970025062561035,
-    "y": 4.788501739501953,
-    "cluster_id": 1
+    "x": 7.355103969573975,
+    "y": 5.542588233947754,
+    "cluster_id": 0
   },
   {
     "id": 90,
@@ -985,9 +985,9 @@
     "time": "22 hours ago",
     "location": "United States",
     "user": "阿西吧不是阿西八",
-    "x": 8.29829216003418,
-    "y": 4.028494358062744,
-    "cluster_id": 1
+    "x": 6.976955890655518,
+    "y": 4.741174221038818,
+    "cluster_id": 0
   },
   {
     "id": 91,
@@ -996,9 +996,9 @@
     "time": "18 hours ago",
     "location": "United Kingdom",
     "user": "YY",
-    "x": 4.78280782699585,
-    "y": 4.995467185974121,
-    "cluster_id": 0
+    "x": 3.0163960456848145,
+    "y": 4.0191330909729,
+    "cluster_id": 5
   },
   {
     "id": 92,
@@ -1007,9 +1007,9 @@
     "time": "1 day ago",
     "location": "Canada",
     "user": "SSSS",
-    "x": 4.439586162567139,
-    "y": 5.97304105758667,
-    "cluster_id": 0
+    "x": 2.2313778400421143,
+    "y": 4.966611385345459,
+    "cluster_id": 3
   },
   {
     "id": 93,
@@ -1018,9 +1018,9 @@
     "time": "19 hours ago",
     "location": "Australia",
     "user": "小小",
-    "x": 4.824953556060791,
-    "y": 2.9959487915039062,
-    "cluster_id": 6
+    "x": 3.6279990673065186,
+    "y": 2.6380739212036133,
+    "cluster_id": -1
   },
   {
     "id": 94,
@@ -1029,9 +1029,9 @@
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "Echo回声",
-    "x": 3.4853591918945312,
-    "y": 2.818134069442749,
-    "cluster_id": 2
+    "x": 2.425450086593628,
+    "y": 2.063837766647339,
+    "cluster_id": 4
   },
   {
     "id": 95,
@@ -1040,9 +1040,9 @@
     "time": "21 hours ago",
     "location": "United States",
     "user": "虹虹",
-    "x": 4.596217155456543,
-    "y": 5.891956329345703,
-    "cluster_id": 0
+    "x": 2.170372724533081,
+    "y": 5.052393913269043,
+    "cluster_id": 3
   },
   {
     "id": 96,
@@ -1051,8 +1051,8 @@
     "time": "20 hours ago",
     "location": "Canada",
     "user": "啊哈哈哈",
-    "x": 5.903998851776123,
-    "y": 2.555422067642212,
+    "x": 5.291570663452148,
+    "y": 2.8132035732269287,
     "cluster_id": 6
   },
   {
@@ -1062,9 +1062,9 @@
     "time": "22 hours ago",
     "location": "United States",
     "user": "Nicole",
-    "x": 4.1162428855896,
-    "y": 5.792576789855957,
-    "cluster_id": 0
+    "x": 2.2898192405700684,
+    "y": 4.782740592956543,
+    "cluster_id": 3
   },
   {
     "id": 98,
@@ -1073,9 +1073,9 @@
     "time": "18 hours ago",
     "location": "United Kingdom",
     "user": "沐沐",
-    "x": 4.657862663269043,
-    "y": 3.184804916381836,
-    "cluster_id": -1
+    "x": 3.4313323497772217,
+    "y": 2.594064712524414,
+    "cluster_id": 4
   },
   {
     "id": 99,
@@ -1084,8 +1084,8 @@
     "time": "1 day ago",
     "location": "United States",
     "user": "小糖",
-    "x": 5.459478378295898,
-    "y": 2.2166495323181152,
+    "x": 4.943321228027344,
+    "y": 2.6817381381988525,
     "cluster_id": 6
   },
   {
@@ -1095,1119 +1095,1119 @@
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "Lily",
-    "x": 3.3917460441589355,
-    "y": 2.90503191947937,
-    "cluster_id": 2
+    "x": 2.412609815597534,
+    "y": 1.9879534244537354,
+    "cluster_id": 4
   },
   {
-    "id": 100,
+    "id": 101,
     "text": "",
     "likes": null,
     "time": null,
     "location": null,
     "user": null,
-    "x": 7.249276161193848,
-    "y": 2.5595548152923584,
-    "cluster_id": 5
+    "x": 6.227564334869385,
+    "y": 2.904392957687378,
+    "cluster_id": 7
   },
   {
-    "id": 101,
+    "id": 102,
     "text": "The development of critical thinking patterns",
     "likes": 1,
     "time": "21 hours ago",
     "location": "United Kingdom",
     "user": "小小酥",
-    "x": 2.601754665374756,
-    "y": 3.194457769393921,
-    "cluster_id": 2
+    "x": 1.8083593845367432,
+    "y": 2.3895514011383057,
+    "cluster_id": 4
   },
   {
-    "id": 102,
+    "id": 103,
     "text": "Learned how to communicate with others and solve problems",
     "likes": 0,
     "time": "1 day ago",
     "location": "United States",
     "user": "momo",
-    "x": 5.34133768081665,
-    "y": 2.185476779937744,
+    "x": 4.73811149597168,
+    "y": 2.505399703979492,
     "cluster_id": 6
   },
   {
-    "id": 103,
+    "id": 104,
     "text": "Broadened horizons, respect for multiculturalism",
     "likes": 1,
     "time": "19 hours ago",
     "location": "Canada",
     "user": "咕噜咕噜",
-    "x": 9.448814392089844,
-    "y": 6.626785755157471,
-    "cluster_id": 3
+    "x": 7.1636152267456055,
+    "y": 7.069312572479248,
+    "cluster_id": 1
   },
   {
-    "id": 104,
+    "id": 105,
     "text": "The ability to think independently, no longer blindly follow",
     "likes": 2,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "小红薯6B4E5F6A",
-    "x": 4.900121688842773,
-    "y": 3.9203555583953857,
-    "cluster_id": 0
+    "x": 3.809074640274048,
+    "y": 3.0700619220733643,
+    "cluster_id": -1
   },
   {
-    "id": 105,
+    "id": 106,
     "text": "Critical thinking and expression skills",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Australia",
     "user": "泡泡",
-    "x": 3.2731823921203613,
-    "y": 5.449886798858643,
-    "cluster_id": -1
+    "x": 2.0001678466796875,
+    "y": 4.025811672210693,
+    "cluster_id": 3
   },
   {
-    "id": 106,
+    "id": 107,
     "text": "Learned to accept differences and established my own values",
     "likes": 1,
     "time": "22 hours ago",
     "location": "United States",
     "user": "阿珍",
-    "x": 8.376407623291016,
-    "y": 4.031172752380371,
-    "cluster_id": 1
+    "x": 7.085233688354492,
+    "y": 4.817644119262695,
+    "cluster_id": 0
   },
   {
-    "id": 107,
+    "id": 108,
     "text": "Improved reasoning ability, independent personality",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "大王叫我来巡山",
-    "x": 5.099846839904785,
-    "y": 4.33121919631958,
-    "cluster_id": 0
+    "x": 3.6898279190063477,
+    "y": 3.6116561889648438,
+    "cluster_id": 5
   },
   {
-    "id": 108,
+    "id": 109,
     "text": "Broadened horizons, learned to be tolerant",
     "likes": 0,
     "time": "18 hours ago",
     "location": "Canada",
     "user": "小方",
-    "x": 9.52662181854248,
-    "y": 6.741842269897461,
-    "cluster_id": 3
+    "x": 7.159746170043945,
+    "y": 7.282041549682617,
+    "cluster_id": 1
   },
   {
-    "id": 109,
+    "id": 110,
     "text": "Critical thinking",
     "likes": 2,
     "time": "21 hours ago",
     "location": "United States",
     "user": "皮皮",
-    "x": 4.045228004455566,
-    "y": 5.661547660827637,
-    "cluster_id": 0
+    "x": 2.427990198135376,
+    "y": 4.487641334533691,
+    "cluster_id": 3
   },
   {
-    "id": 110,
+    "id": 111,
     "text": "Independent thinking, not swayed by public opinion",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "安安",
-    "x": 4.899588108062744,
-    "y": 4.363342761993408,
-    "cluster_id": 0
+    "x": 3.387686014175415,
+    "y": 3.5333609580993652,
+    "cluster_id": 5
   },
   {
-    "id": 111,
+    "id": 112,
     "text": "Learned how to learn and how to think",
     "likes": 1,
     "time": "19 hours ago",
     "location": "Australia",
     "user": "momo",
-    "x": 5.429776668548584,
-    "y": 2.0628044605255127,
+    "x": 4.779850482940674,
+    "y": 2.5695502758026123,
     "cluster_id": 6
   },
   {
-    "id": 112,
+    "id": 113,
     "text": "Established my own evaluation system, no longer living under others' gaze",
     "likes": 4,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6C5D4E3F",
-    "x": 7.079403877258301,
-    "y": 2.209099054336548,
-    "cluster_id": 5
+    "x": 6.27410364151001,
+    "y": 2.3531527519226074,
+    "cluster_id": 7
   },
   {
-    "id": 113,
+    "id": 114,
     "text": "Critical thinking, the soul of studying abroad",
     "likes": 2,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "七七",
-    "x": 6.849559783935547,
-    "y": 7.271083831787109,
-    "cluster_id": 4
+    "x": 4.458213806152344,
+    "y": 6.807078838348389,
+    "cluster_id": 2
   },
   {
-    "id": 114,
+    "id": 115,
     "text": "Learned to live independently and think independently",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "肉肉",
-    "x": 5.849725246429443,
-    "y": 2.4591493606567383,
+    "x": 5.2028937339782715,
+    "y": 2.6919455528259277,
     "cluster_id": 6
   },
   {
-    "id": 115,
+    "id": 116,
     "text": "Broadened horizons, experienced a different world",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小太阳",
-    "x": 9.55471420288086,
-    "y": 6.810786247253418,
-    "cluster_id": 3
+    "x": 6.986466407775879,
+    "y": 7.513106346130371,
+    "cluster_id": 1
   },
   {
-    "id": 116,
+    "id": 117,
     "text": "The establishment of critical thinking ability",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "草莓酱",
-    "x": 3.0726401805877686,
-    "y": 3.055901050567627,
-    "cluster_id": 2
+    "x": 2.090235471725464,
+    "y": 2.1392669677734375,
+    "cluster_id": 4
   },
   {
-    "id": 117,
+    "id": 118,
     "text": "Learned to respect differences and understand multiculturalism",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿强",
-    "x": 8.952452659606934,
-    "y": 4.758756160736084,
-    "cluster_id": 1
+    "x": 7.460574626922607,
+    "y": 5.44388484954834,
+    "cluster_id": 0
   },
   {
-    "id": 118,
+    "id": 119,
     "text": "Independent thinking, independent living",
     "likes": 0,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6A9B8C7D",
-    "x": 4.900938987731934,
-    "y": 4.407607555389404,
-    "cluster_id": 0
+    "x": 3.293569803237915,
+    "y": 3.6639788150787354,
+    "cluster_id": 5
   },
   {
-    "id": 119,
+    "id": 120,
     "text": "Critical thinking and diverse values",
     "likes": 2,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "西西",
-    "x": 4.337845325469971,
-    "y": 5.235941410064697,
-    "cluster_id": 0
+    "x": 2.7593865394592285,
+    "y": 4.293507099151611,
+    "cluster_id": 3
   },
   {
-    "id": 120,
+    "id": 121,
     "text": "Developed critical thinking and learned to question",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "多多",
-    "x": 3.8864428997039795,
-    "y": 2.8769278526306152,
-    "cluster_id": -1
+    "x": 2.8026933670043945,
+    "y": 2.260394811630249,
+    "cluster_id": 4
   },
   {
-    "id": 121,
+    "id": 122,
     "text": "Broadened horizons and enhanced understanding",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小宇",
-    "x": 9.475871086120605,
-    "y": 7.222841739654541,
-    "cluster_id": 3
+    "x": 7.161818504333496,
+    "y": 7.679213523864746,
+    "cluster_id": 1
   },
   {
-    "id": 122,
+    "id": 123,
     "text": "Cultivated a critical thinking mindset",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "琳琳",
-    "x": 3.443573236465454,
-    "y": 2.9882986545562744,
-    "cluster_id": 2
+    "x": 2.407766103744507,
+    "y": 2.2562413215637207,
+    "cluster_id": 4
   },
   {
-    "id": 123,
+    "id": 124,
     "text": "Learned how to face difficulties independently and think for myself",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "momo",
-    "x": 5.958056926727295,
-    "y": 2.8552706241607666,
+    "x": 5.186415195465088,
+    "y": 3.162304401397705,
     "cluster_id": 6
   },
   {
-    "id": 124,
+    "id": 125,
     "text": "Built my own system of thought",
     "likes": 2,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6D5E4F3A",
-    "x": 6.972034931182861,
-    "y": 2.193063259124756,
-    "cluster_id": 5
+    "x": 5.970015048980713,
+    "y": 2.30147123336792,
+    "cluster_id": 7
   },
   {
-    "id": 125,
+    "id": 126,
     "text": "Critical thinking, the most valuable treasure",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "贝贝",
-    "x": 4.433929443359375,
-    "y": 6.1088151931762695,
-    "cluster_id": 0
+    "x": 2.1299026012420654,
+    "y": 4.737109661102295,
+    "cluster_id": 3
   },
   {
-    "id": 126,
+    "id": 127,
     "text": "Broadened horizons and enriched experiences",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "欢欢",
-    "x": 9.569571495056152,
-    "y": 7.159715175628662,
-    "cluster_id": 3
+    "x": 7.1850762367248535,
+    "y": 7.530013084411621,
+    "cluster_id": 1
   },
   {
-    "id": 127,
+    "id": 128,
     "text": "Learned to think independently and not blindly follow authority",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小明",
-    "x": 5.5062713623046875,
-    "y": 2.905719518661499,
+    "x": 4.371532440185547,
+    "y": 2.3830411434173584,
     "cluster_id": 6
   },
   {
-    "id": 128,
+    "id": 129,
     "text": "Improved critical thinking skills",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "圆圆",
-    "x": 2.767402410507202,
-    "y": 3.3362057209014893,
-    "cluster_id": 2
+    "x": 1.9744131565093994,
+    "y": 2.909485101699829,
+    "cluster_id": 4
   },
   {
-    "id": 129,
+    "id": 130,
     "text": "Learned to embrace different cultures and respect differences",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿花",
-    "x": 8.643351554870605,
-    "y": 4.438173770904541,
-    "cluster_id": 1
+    "x": 7.1813225746154785,
+    "y": 5.244566917419434,
+    "cluster_id": 0
   },
   {
-    "id": 130,
+    "id": 131,
     "text": "Established my own independent personality",
     "likes": 3,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6E5D4C3B",
-    "x": 6.774145126342773,
-    "y": 2.4298293590545654,
-    "cluster_id": 5
+    "x": 5.949065208435059,
+    "y": 2.5223448276519775,
+    "cluster_id": 7
   },
   {
-    "id": 131,
+    "id": 132,
     "text": "Critical thinking and reasoning skills",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "甜甜",
-    "x": 3.383779525756836,
-    "y": 5.387576103210449,
-    "cluster_id": -1
+    "x": 1.730635166168213,
+    "y": 4.045830726623535,
+    "cluster_id": 3
   },
   {
-    "id": 132,
+    "id": 133,
     "text": "Broadened horizons and gained knowledge",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "果果",
-    "x": 9.568464279174805,
-    "y": 7.08047342300415,
-    "cluster_id": 3
+    "x": 7.214268684387207,
+    "y": 7.555964469909668,
+    "cluster_id": 1
   },
   {
-    "id": 133,
+    "id": 134,
     "text": "Learned how to think independently and how to live",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小刚",
-    "x": 5.620908260345459,
-    "y": 2.3830127716064453,
+    "x": 4.991251468658447,
+    "y": 2.5923361778259277,
     "cluster_id": 6
   },
   {
-    "id": 134,
+    "id": 135,
     "text": "Established a critical thinking pattern",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "萌萌",
-    "x": 3.311180830001831,
-    "y": 2.7457387447357178,
-    "cluster_id": 2
+    "x": 2.194777727127075,
+    "y": 1.9409910440444946,
+    "cluster_id": 4
   },
   {
-    "id": 135,
+    "id": 136,
     "text": "Learned to respect multiculturalism and practice understanding and tolerance",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿力",
-    "x": 8.860108375549316,
-    "y": 4.869725227355957,
-    "cluster_id": 1
+    "x": 7.379157543182373,
+    "y": 5.551535606384277,
+    "cluster_id": 0
   },
   {
-    "id": 136,
+    "id": 137,
     "text": "Think independently, no longer brainwashed",
     "likes": 5,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6F5E4D3C",
-    "x": 4.948155403137207,
-    "y": 3.8328967094421387,
-    "cluster_id": 0
+    "x": 3.8076388835906982,
+    "y": 2.9891273975372314,
+    "cluster_id": -1
   },
   {
-    "id": 137,
+    "id": 138,
     "text": "Critical thinking and independent personality",
     "likes": 2,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "佳佳",
-    "x": 4.886225700378418,
-    "y": 4.5847859382629395,
-    "cluster_id": 0
+    "x": 3.263716697692871,
+    "y": 3.587371826171875,
+    "cluster_id": 5
   },
   {
-    "id": 138,
+    "id": 139,
     "text": "Broadened horizons and deepened thinking",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "晨晨",
-    "x": 9.670670509338379,
-    "y": 7.044537544250488,
-    "cluster_id": 3
+    "x": 7.189196586608887,
+    "y": 7.676505088806152,
+    "cluster_id": 1
   },
   {
-    "id": 139,
+    "id": 140,
     "text": "Learned to look at problems critically",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小王",
-    "x": 4.401882171630859,
-    "y": 2.7306759357452393,
+    "x": 3.2796542644500732,
+    "y": 2.219865322113037,
     "cluster_id": -1
   },
   {
-    "id": 140,
+    "id": 141,
     "text": "The development of critical thinking skills",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "曼曼",
-    "x": 2.7720415592193604,
-    "y": 3.3247122764587402,
-    "cluster_id": 2
+    "x": 1.891701340675354,
+    "y": 2.5694799423217773,
+    "cluster_id": 4
   },
   {
-    "id": 141,
+    "id": 142,
     "text": "Learned to live independently and think independently",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿水",
-    "x": 5.880898952484131,
-    "y": 2.5904581546783447,
+    "x": 5.248941898345947,
+    "y": 2.728931427001953,
     "cluster_id": 6
   },
   {
-    "id": 142,
+    "id": 143,
     "text": "Established my own value system",
     "likes": 2,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6G5F4E3D",
-    "x": 7.067584991455078,
-    "y": 2.274639844894409,
-    "cluster_id": 5
+    "x": 6.205469131469727,
+    "y": 2.428389310836792,
+    "cluster_id": 7
   },
   {
-    "id": 143,
+    "id": 144,
     "text": "Critical thinking, the core value of studying abroad",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "玲玲",
-    "x": 6.8999247550964355,
-    "y": 7.383744716644287,
-    "cluster_id": 4
+    "x": 4.555881023406982,
+    "y": 6.9016523361206055,
+    "cluster_id": 2
   },
   {
-    "id": 144,
+    "id": 145,
     "text": "Broadened horizons, enriched life experiences",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "明明",
-    "x": 9.476983070373535,
-    "y": 7.1210713386535645,
-    "cluster_id": 3
+    "x": 7.102828502655029,
+    "y": 7.569339275360107,
+    "cluster_id": 1
   },
   {
-    "id": 145,
+    "id": 146,
     "text": "Learned to think independently, improved cognition",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小李",
-    "x": 5.42948579788208,
-    "y": 2.2715933322906494,
+    "x": 4.82166051864624,
+    "y": 2.5452404022216797,
     "cluster_id": 6
   },
   {
-    "id": 146,
+    "id": 147,
     "text": "Improvement of critical thinking patterns",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "青青",
-    "x": 2.707949638366699,
-    "y": 3.0499536991119385,
-    "cluster_id": 2
+    "x": 1.7836483716964722,
+    "y": 2.2394042015075684,
+    "cluster_id": 4
   },
   {
-    "id": 147,
+    "id": 148,
     "text": "Learned to embrace differences and respect diversity",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿木",
-    "x": 8.787103652954102,
-    "y": 4.345310688018799,
-    "cluster_id": 1
+    "x": 7.33195686340332,
+    "y": 5.1634111404418945,
+    "cluster_id": 0
   },
   {
-    "id": 148,
+    "id": 149,
     "text": "Established an independent personality and mindset",
     "likes": 4,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6H5G4F3E",
-    "x": 6.67381477355957,
-    "y": 2.509814977645874,
-    "cluster_id": 5
+    "x": 5.95238733291626,
+    "y": 2.523934841156006,
+    "cluster_id": 7
   },
   {
-    "id": 149,
+    "id": 150,
     "text": "Critical thinking and reasoning skills",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "芳芳",
-    "x": 3.428037405014038,
-    "y": 5.495274066925049,
-    "cluster_id": 0
+    "x": 1.7629348039627075,
+    "y": 4.083209991455078,
+    "cluster_id": 3
   },
   {
-    "id": 150,
+    "id": 151,
     "text": "Broadened horizons, elevated perspective",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "建建",
-    "x": 9.791664123535156,
-    "y": 7.189661026000977,
-    "cluster_id": 3
+    "x": 6.890873908996582,
+    "y": 7.924323081970215,
+    "cluster_id": 1
   },
   {
-    "id": 151,
+    "id": 152,
     "text": "Establishment of critical thinking patterns",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "小美",
-    "x": 2.955225706100464,
-    "y": 2.8959884643554688,
-    "cluster_id": 2
+    "x": 1.9792051315307617,
+    "y": 2.1685616970062256,
+    "cluster_id": 4
   },
   {
-    "id": 152,
+    "id": 153,
     "text": "Learned to respect multiculturalism, understand and embrace it",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿华",
-    "x": 9.06867504119873,
-    "y": 4.674549579620361,
-    "cluster_id": 1
+    "x": 7.484649181365967,
+    "y": 5.497534275054932,
+    "cluster_id": 0
   },
   {
-    "id": 153,
+    "id": 154,
     "text": "Think independently, no longer follow the crowd blindly",
     "likes": 5,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6I5H4G3F",
-    "x": 4.967777252197266,
-    "y": 3.8658175468444824,
-    "cluster_id": 0
+    "x": 3.7786717414855957,
+    "y": 3.039571762084961,
+    "cluster_id": -1
   },
   {
-    "id": 154,
+    "id": 155,
     "text": "Critical thinking and independent spirit",
     "likes": 2,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "琳琳",
-    "x": 4.719185829162598,
-    "y": 4.701642036437988,
-    "cluster_id": 0
+    "x": 3.187640428543091,
+    "y": 3.6350150108337402,
+    "cluster_id": 5
   },
   {
-    "id": 155,
+    "id": 156,
     "text": "Broadened horizons, enhanced cognitive thinking",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "多多",
-    "x": 9.75740909576416,
-    "y": 7.128725051879883,
-    "cluster_id": 3
+    "x": 7.049217700958252,
+    "y": 7.507319927215576,
+    "cluster_id": 1
   },
   {
-    "id": 156,
+    "id": 157,
     "text": "Learned to see the world from different angles",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小王",
-    "x": 9.436367988586426,
-    "y": 6.36625337600708,
-    "cluster_id": -1
+    "x": 6.425657272338867,
+    "y": 7.764423370361328,
+    "cluster_id": 1
   },
   {
-    "id": 157,
+    "id": 158,
     "text": "The establishment of critical thinking ability",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "曼曼",
-    "x": 3.1034412384033203,
-    "y": 2.962862253189087,
-    "cluster_id": 2
+    "x": 2.137972116470337,
+    "y": 2.161729097366333,
+    "cluster_id": 4
   },
   {
-    "id": 158,
+    "id": 159,
     "text": "Learned to face everything independently",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿水",
-    "x": 6.0988593101501465,
-    "y": 3.0588674545288086,
+    "x": 5.305137634277344,
+    "y": 3.324342727661133,
     "cluster_id": 6
   },
   {
-    "id": 159,
+    "id": 160,
     "text": "Established a solid self-awareness",
     "likes": 2,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6J5I4H3G",
-    "x": 6.924236297607422,
-    "y": 2.5480473041534424,
-    "cluster_id": 5
+    "x": 6.099663257598877,
+    "y": 2.630892276763916,
+    "cluster_id": 7
   },
   {
-    "id": 160,
+    "id": 161,
     "text": "Critical thinking, a lifelong benefit",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "玲玲",
-    "x": 4.081008434295654,
-    "y": 6.132280349731445,
-    "cluster_id": 0
+    "x": 2.0719988346099854,
+    "y": 4.681135177612305,
+    "cluster_id": 3
   },
   {
-    "id": 161,
+    "id": 162,
     "text": "Broaden horizons, increase knowledge",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "明明",
-    "x": 9.18157958984375,
-    "y": 7.1767120361328125,
-    "cluster_id": 3
+    "x": 6.755884647369385,
+    "y": 7.426834583282471,
+    "cluster_id": 1
   },
   {
-    "id": 162,
+    "id": 163,
     "text": "Learned to think and judge independently",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小李",
-    "x": 5.498064994812012,
-    "y": 2.5867531299591064,
+    "x": 4.476511001586914,
+    "y": 2.352757692337036,
     "cluster_id": 6
   },
   {
-    "id": 163,
+    "id": 164,
     "text": "Development of a critical thinking mindset",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "青青",
-    "x": 2.652743339538574,
-    "y": 3.0164971351623535,
-    "cluster_id": 2
+    "x": 1.909532904624939,
+    "y": 2.6064400672912598,
+    "cluster_id": 4
   },
   {
-    "id": 164,
+    "id": 165,
     "text": "Learned to respect differences, understand and tolerate",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿木",
-    "x": 8.750870704650879,
-    "y": 4.683656692504883,
-    "cluster_id": 1
+    "x": 7.233290672302246,
+    "y": 5.507636070251465,
+    "cluster_id": 0
   },
   {
-    "id": 165,
+    "id": 166,
     "text": "Built an independent and confident personality",
     "likes": 4,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6K5J4I3H",
-    "x": 6.558692932128906,
-    "y": 2.587233781814575,
-    "cluster_id": 5
+    "x": 5.882654190063477,
+    "y": 2.764016628265381,
+    "cluster_id": 7
   },
   {
-    "id": 166,
+    "id": 167,
     "text": "Critical thinking and expression skills",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "芳芳",
-    "x": 3.2959370613098145,
-    "y": 5.462080955505371,
-    "cluster_id": -1
+    "x": 1.9883798360824585,
+    "y": 4.028566837310791,
+    "cluster_id": 3
   },
   {
-    "id": 167,
+    "id": 168,
     "text": "Broaden horizons, enhance self-awareness",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "建建",
-    "x": 9.261894226074219,
-    "y": 7.055527687072754,
-    "cluster_id": 3
+    "x": 6.779705047607422,
+    "y": 7.346074104309082,
+    "cluster_id": 1
   },
   {
-    "id": 168,
+    "id": 169,
     "text": "Learned to think and live independently",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小红",
-    "x": 5.747328758239746,
-    "y": 2.1937642097473145,
+    "x": 5.14146614074707,
+    "y": 2.722947120666504,
     "cluster_id": 6
   },
   {
-    "id": 169,
+    "id": 170,
     "text": "Cultivation of critical thinking skills",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "莉莉",
-    "x": 2.927626371383667,
-    "y": 3.4470863342285156,
-    "cluster_id": 2
+    "x": 2.026141405105591,
+    "y": 2.571416139602661,
+    "cluster_id": 4
   },
   {
-    "id": 170,
+    "id": 171,
     "text": "Learned to embrace diversity and respect pluralism",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "大伟",
-    "x": 8.899657249450684,
-    "y": 4.457353115081787,
-    "cluster_id": 1
+    "x": 7.559183597564697,
+    "y": 5.234414577484131,
+    "cluster_id": 0
   },
   {
-    "id": 171,
+    "id": 172,
     "text": "Established a clear value system",
     "likes": 3,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6L5K4J3I",
-    "x": 6.893991470336914,
-    "y": 2.34151554107666,
-    "cluster_id": 5
+    "x": 6.248167514801025,
+    "y": 2.31954288482666,
+    "cluster_id": 7
   },
   {
-    "id": 172,
+    "id": 173,
     "text": "Critical thinking and logical reasoning",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "兰兰",
-    "x": 3.5008623600006104,
-    "y": 5.5883355140686035,
-    "cluster_id": 0
+    "x": 1.7820981740951538,
+    "y": 4.169435024261475,
+    "cluster_id": 3
   },
   {
-    "id": 173,
+    "id": 174,
     "text": "Broaden horizons, enrich life experiences",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "亮亮",
-    "x": 9.134893417358398,
-    "y": 7.325432300567627,
-    "cluster_id": 3
+    "x": 6.684116840362549,
+    "y": 7.3733649253845215,
+    "cluster_id": 1
   },
   {
-    "id": 174,
+    "id": 175,
     "text": "Learned to think independently and judge right from wrong",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小明",
-    "x": 5.888818740844727,
-    "y": 2.2409069538116455,
+    "x": 5.028412342071533,
+    "y": 2.158360242843628,
     "cluster_id": 6
   },
   {
-    "id": 175,
+    "id": 176,
     "text": "Formation of a critical thinking pattern",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "红红",
-    "x": 2.910539150238037,
-    "y": 2.8466391563415527,
-    "cluster_id": 2
+    "x": 1.8806120157241821,
+    "y": 2.0955898761749268,
+    "cluster_id": 4
   },
   {
-    "id": 176,
+    "id": 177,
     "text": "Learned to respect diversity and understand differences",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿强",
-    "x": 8.98392105102539,
-    "y": 4.654751300811768,
-    "cluster_id": 1
+    "x": 7.560877799987793,
+    "y": 5.35960054397583,
+    "cluster_id": 0
   },
   {
-    "id": 177,
+    "id": 178,
     "text": "Established the habit of independent thinking",
     "likes": 2,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6M5L4K3J",
-    "x": 6.558237075805664,
-    "y": 2.143151044845581,
-    "cluster_id": 5
+    "x": 5.632700443267822,
+    "y": 2.0737662315368652,
+    "cluster_id": 7
   },
   {
-    "id": 178,
+    "id": 179,
     "text": "Critical thinking and independence",
     "likes": 2,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "娟娟",
-    "x": 4.645086765289307,
-    "y": 4.646178245544434,
-    "cluster_id": 0
+    "x": 3.1280579566955566,
+    "y": 3.6681227684020996,
+    "cluster_id": 5
   },
   {
-    "id": 179,
+    "id": 180,
     "text": "Broaden horizons, elevate perspective",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "楠楠",
-    "x": 9.31285572052002,
-    "y": 7.097945213317871,
-    "cluster_id": 3
+    "x": 6.686054706573486,
+    "y": 7.637275695800781,
+    "cluster_id": 1
   },
   {
-    "id": 180,
+    "id": 181,
     "text": "Learned to view problems critically",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小赵",
-    "x": 4.449676513671875,
-    "y": 2.655602216720581,
+    "x": 3.343109607696533,
+    "y": 2.154507875442505,
     "cluster_id": -1
   },
   {
-    "id": 181,
+    "id": 182,
     "text": "Development of critical thinking skills",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "梅梅",
-    "x": 2.7214841842651367,
-    "y": 3.1321513652801514,
-    "cluster_id": 2
+    "x": 1.840391993522644,
+    "y": 2.7192673683166504,
+    "cluster_id": 4
   },
   {
-    "id": 182,
+    "id": 183,
     "text": "Learned to face challenges independently",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿健",
-    "x": 5.927421569824219,
-    "y": 2.8603620529174805,
+    "x": 5.325798511505127,
+    "y": 3.1162588596343994,
     "cluster_id": 6
   },
   {
-    "id": 183,
+    "id": 184,
     "text": "Established a unique perspective of observation",
     "likes": 2,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6N5M4L3K",
-    "x": 9.539209365844727,
-    "y": 6.310332298278809,
-    "cluster_id": -1
+    "x": 6.414041042327881,
+    "y": 8.023127555847168,
+    "cluster_id": 1
   },
   {
-    "id": 184,
+    "id": 185,
     "text": "Critical thinking and diverse cognition",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "婷婷",
-    "x": 4.154203414916992,
-    "y": 5.262821674346924,
-    "cluster_id": 0
+    "x": 2.481614351272583,
+    "y": 4.273945331573486,
+    "cluster_id": 3
   },
   {
-    "id": 185,
+    "id": 186,
     "text": "Broadened horizons, enriched the spiritual world",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "峰峰",
-    "x": 9.689343452453613,
-    "y": 7.130130290985107,
-    "cluster_id": 3
+    "x": 7.113173007965088,
+    "y": 7.7318549156188965,
+    "cluster_id": 1
   },
   {
-    "id": 186,
+    "id": 187,
     "text": "Learned to think and make choices independently",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小钱",
-    "x": 5.807265758514404,
-    "y": 2.3257393836975098,
+    "x": 5.052701950073242,
+    "y": 2.3474764823913574,
     "cluster_id": 6
   },
   {
-    "id": 187,
+    "id": 188,
     "text": "Improvement of critical thinking patterns",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "慧慧",
-    "x": 2.67395281791687,
-    "y": 3.1692585945129395,
-    "cluster_id": 2
+    "x": 1.7359341382980347,
+    "y": 2.303187370300293,
+    "cluster_id": 4
   },
   {
-    "id": 188,
+    "id": 189,
     "text": "Learned to respect differences and embrace diversity",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿德",
-    "x": 8.90469741821289,
-    "y": 4.485888957977295,
-    "cluster_id": 1
+    "x": 7.332015514373779,
+    "y": 5.192907810211182,
+    "cluster_id": 0
   },
   {
-    "id": 189,
+    "id": 190,
     "text": "Built a solid inner world",
     "likes": 4,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6O5P4Q3R",
-    "x": 7.177591800689697,
-    "y": 2.3848321437835693,
-    "cluster_id": 5
+    "x": 6.129562854766846,
+    "y": 2.5907702445983887,
+    "cluster_id": 7
   },
   {
-    "id": 190,
+    "id": 191,
     "text": "Critical thinking and independent insights",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "艳艳",
-    "x": 4.571385383605957,
-    "y": 4.863657474517822,
-    "cluster_id": 0
+    "x": 2.9247050285339355,
+    "y": 3.8107573986053467,
+    "cluster_id": 5
   },
   {
-    "id": 191,
+    "id": 192,
     "text": "Broadened horizons, enhanced overall quality",
     "likes": 1,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "刚刚",
-    "x": 9.792449951171875,
-    "y": 7.351529598236084,
-    "cluster_id": 3
+    "x": 7.091300964355469,
+    "y": 7.7845892906188965,
+    "cluster_id": 1
   },
   {
-    "id": 192,
+    "id": 193,
     "text": "Learned to think independently and grow",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小孙",
-    "x": 5.715532302856445,
-    "y": 2.377241849899292,
+    "x": 4.963001728057861,
+    "y": 2.3225135803222656,
     "cluster_id": 6
   },
   {
-    "id": 193,
+    "id": 194,
     "text": "Development of critical thinking skills",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "平平",
-    "x": 2.800112009048462,
-    "y": 3.3803927898406982,
-    "cluster_id": 2
+    "x": 1.8588413000106812,
+    "y": 2.687779664993286,
+    "cluster_id": 4
   },
   {
-    "id": 194,
+    "id": 195,
     "text": "Learned to embrace differences and understand diversity",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿诚",
-    "x": 8.717148780822754,
-    "y": 4.313591003417969,
-    "cluster_id": 1
+    "x": 7.38213586807251,
+    "y": 5.099617958068848,
+    "cluster_id": 0
   },
   {
-    "id": 195,
+    "id": 196,
     "text": "Built a foundation for independent thinking",
     "likes": 3,
     "time": "22 hours ago",
     "location": "United States",
     "user": "小红薯6S5T4U3V",
-    "x": 6.494159698486328,
-    "y": 2.087907552719116,
-    "cluster_id": 5
+    "x": 5.718181610107422,
+    "y": 2.178354501724243,
+    "cluster_id": 7
   },
   {
-    "id": 196,
+    "id": 197,
     "text": "Critical thinking and logical skills",
     "likes": 1,
     "time": "1 day ago",
     "location": "United Kingdom",
     "user": "丹丹",
-    "x": 3.326472043991089,
-    "y": 5.518688201904297,
-    "cluster_id": -1
+    "x": 1.7216548919677734,
+    "y": 4.048820495605469,
+    "cluster_id": 3
   },
   {
-    "id": 197,
+    "id": 198,
     "text": "Broadened horizons, boosted confidence",
     "likes": 0,
     "time": "20 hours ago",
     "location": "Canada",
     "user": "志志",
-    "x": 9.627530097961426,
-    "y": 7.053474426269531,
-    "cluster_id": 3
+    "x": 7.20668888092041,
+    "y": 7.692248821258545,
+    "cluster_id": 1
   },
   {
-    "id": 198,
+    "id": 199,
     "text": "Learned to think independently and solve problems",
     "likes": 1,
     "time": "1 day ago",
     "location": "United States",
     "user": "小周",
-    "x": 5.538572788238525,
-    "y": 2.104222297668457,
+    "x": 4.767053127288818,
+    "y": 2.374890089035034,
     "cluster_id": 6
   },
   {
-    "id": 199,
+    "id": 200,
     "text": "Established critical thinking patterns",
     "likes": 1,
     "time": "19 hours ago",
     "location": "United Kingdom",
     "user": "丽丽",
-    "x": 3.0933101177215576,
-    "y": 2.7374355792999268,
-    "cluster_id": 2
+    "x": 1.9594095945358276,
+    "y": 1.9467605352401733,
+    "cluster_id": 4
   },
   {
-    "id": 200,
+    "id": 201,
     "text": "Learned to respect differences and embrace diversity",
     "likes": 1,
     "time": "21 hours ago",
     "location": "Australia",
     "user": "阿山",
-    "x": 8.815478324890137,
-    "y": 4.313989639282227,
-    "cluster_id": 1
+    "x": 7.470985412597656,
+    "y": 5.056607246398926,
+    "cluster_id": 0
   }
 ]

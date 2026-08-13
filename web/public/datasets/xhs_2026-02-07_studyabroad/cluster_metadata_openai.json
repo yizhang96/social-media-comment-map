@@ -1,0 +1,363 @@
+{
+  "dataset_id": "xhs_2026-02-07_studyabroad",
+  "map_type": "openai",
+  "model": "gpt-5.6-terra",
+  "prompt_version": "cluster-label-v2",
+  "display_language": "same as the source comments",
+  "source_map_sha256": "5d90d5f1ebd4a5d6562b57b26c047e78f75280be85cac43d28a1c41d7dd9083e",
+  "generated_at": "2026-08-13T05:54:43.914424+00:00",
+  "responses": {
+    "stage_a": "resp_025bc828161ee380016a7d5c177ee4819aa9a2babb73aeddc6",
+    "stage_b": "resp_007b430dc58dbcbb016a7d5c1c86908198bebc4c9a22eeeeff"
+  },
+  "stage_a_drafts": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Respect for cultural differences",
+      "summary": "Cultural diversity, empathy, equality, and respect for different perspectives",
+      "keywords": [
+        "cultural diversity",
+        "respect",
+        "differences",
+        "multiculturalism",
+        "empathy",
+        "equality"
+      ],
+      "representative_comment_ids": [
+        189,
+        118,
+        20,
+        68
+      ],
+      "confidence": 0.95
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Broader horizons",
+      "summary": "Expanded worldview, richer experiences, and new ways of seeing",
+      "keywords": [
+        "broadened horizons",
+        "worldview",
+        "experiences",
+        "knowledge",
+        "perspective",
+        "thinking"
+      ],
+      "representative_comment_ids": [
+        145,
+        139,
+        116,
+        184
+      ],
+      "confidence": 0.96
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Transformative overseas experience",
+      "summary": "Mixed reflections on self-discovery, cultural comparison, and personal resilience",
+      "keywords": [
+        "self-discovery",
+        "cultural comparison",
+        "resilience",
+        "global perspective",
+        "identity",
+        "adaptation"
+      ],
+      "representative_comment_ids": [
+        22,
+        14,
+        62,
+        1
+      ],
+      "confidence": 0.72
+    },
+    "3": {
+      "cluster_id": 3,
+      "label": "Critical thinking",
+      "summary": "Critical thinking as the central value of overseas study",
+      "keywords": [
+        "critical thinking",
+        "reasoning",
+        "questioning",
+        "analysis",
+        "reflection"
+      ],
+      "representative_comment_ids": [
+        51,
+        97,
+        71,
+        83
+      ],
+      "confidence": 0.98
+    },
+    "4": {
+      "cluster_id": 4,
+      "label": "Developing critical thinking",
+      "summary": "Critical-thinking skills, questioning habits, and more comprehensive analysis",
+      "keywords": [
+        "critical thinking",
+        "questioning",
+        "skills",
+        "mindset",
+        "analysis",
+        "patterns"
+      ],
+      "representative_comment_ids": [
+        194,
+        200,
+        98,
+        121
+      ],
+      "confidence": 0.97
+    },
+    "5": {
+      "cluster_id": 5,
+      "label": "Independent critical thinking",
+      "summary": "Independent judgment, critical thinking, and resistance to social pressure",
+      "keywords": [
+        "independent thinking",
+        "critical thinking",
+        "independence",
+        "reasoning",
+        "personality",
+        "public opinion"
+      ],
+      "representative_comment_ids": [
+        88,
+        111,
+        19,
+        108
+      ],
+      "confidence": 0.96
+    },
+    "6": {
+      "cluster_id": 6,
+      "label": "Independent living and thinking",
+      "summary": "Self-reliance, autonomous problem-solving, and independent everyday life",
+      "keywords": [
+        "independent living",
+        "self-reliance",
+        "problem-solving",
+        "autonomy",
+        "active learning",
+        "confidence"
+      ],
+      "representative_comment_ids": [
+        169,
+        199,
+        124,
+        67
+      ],
+      "confidence": 0.96
+    },
+    "7": {
+      "cluster_id": 7,
+      "label": "Independent self-formation",
+      "summary": "Independent personality, self-awareness, values, and an inner sense of self",
+      "keywords": [
+        "independent personality",
+        "self-awareness",
+        "values",
+        "confidence",
+        "inner world",
+        "mindset"
+      ],
+      "representative_comment_ids": [
+        149,
+        160,
+        143,
+        190
+      ],
+      "confidence": 0.91
+    }
+  },
+  "clusters": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Cultural respect",
+      "summary": "Respect for diversity, equality, empathy, and cultural differences",
+      "keywords": [
+        "cultural diversity",
+        "respect",
+        "differences",
+        "multiculturalism",
+        "empathy",
+        "equality"
+      ],
+      "representative_comment_ids": [
+        189,
+        118,
+        20,
+        68
+      ],
+      "confidence": 0.95,
+      "status": "revised",
+      "overlaps_with": [],
+      "verification_note": "Evidence centers on respecting cultural and personal differences."
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Broader horizons",
+      "summary": "Expanded worldview, richer experiences, and new ways of seeing",
+      "keywords": [
+        "broadened horizons",
+        "worldview",
+        "experiences",
+        "knowledge",
+        "perspective",
+        "thinking"
+      ],
+      "representative_comment_ids": [
+        145,
+        139,
+        116,
+        184
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "A clear, distinct pattern of expanded perspective and experience."
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Mixed overseas reflections",
+      "summary": "Self-discovery, cultural comparison, resilience, and critical reflection",
+      "keywords": [
+        "self-discovery",
+        "cultural comparison",
+        "resilience",
+        "global perspective",
+        "identity",
+        "adaptation"
+      ],
+      "representative_comment_ids": [
+        22,
+        14,
+        62,
+        1
+      ],
+      "confidence": 0.72,
+      "status": "mixed",
+      "overlaps_with": [],
+      "verification_note": "Representative evidence spans several themes without one dominant focus."
+    },
+    "3": {
+      "cluster_id": 3,
+      "label": "Critical thinking",
+      "summary": "Critical thinking as the central value of overseas study",
+      "keywords": [
+        "critical thinking",
+        "reasoning",
+        "questioning",
+        "analysis",
+        "reflection"
+      ],
+      "representative_comment_ids": [
+        51,
+        97,
+        71,
+        83
+      ],
+      "confidence": 0.98,
+      "status": "overlap",
+      "overlaps_with": [
+        4
+      ],
+      "verification_note": "Nearly indistinguishable from cluster 4; both primarily express critical-thinking development."
+    },
+    "4": {
+      "cluster_id": 4,
+      "label": "Critical thinking",
+      "summary": "Critical-thinking skills, questioning habits, and comprehensive analysis",
+      "keywords": [
+        "critical thinking",
+        "questioning",
+        "skills",
+        "mindset",
+        "analysis",
+        "patterns"
+      ],
+      "representative_comment_ids": [
+        194,
+        200,
+        98,
+        121
+      ],
+      "confidence": 0.97,
+      "status": "overlap",
+      "overlaps_with": [
+        3
+      ],
+      "verification_note": "Development wording does not create a substantive distinction from cluster 3."
+    },
+    "5": {
+      "cluster_id": 5,
+      "label": "Independent critical judgment",
+      "summary": "Independent judgment, critical thinking, and resistance to social pressure",
+      "keywords": [
+        "independent thinking",
+        "critical thinking",
+        "independence",
+        "reasoning",
+        "personality",
+        "public opinion"
+      ],
+      "representative_comment_ids": [
+        88,
+        111,
+        19,
+        108
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Independence of judgment is consistently paired with critical thinking."
+    },
+    "6": {
+      "cluster_id": 6,
+      "label": "Independent living and thinking",
+      "summary": "Self-reliance, autonomous problem-solving, and independent everyday life",
+      "keywords": [
+        "independent living",
+        "self-reliance",
+        "problem-solving",
+        "autonomy",
+        "active learning",
+        "confidence"
+      ],
+      "representative_comment_ids": [
+        169,
+        199,
+        124,
+        67
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Focus is practical autonomy in living, learning, and solving problems."
+    },
+    "7": {
+      "cluster_id": 7,
+      "label": "Independent self-formation",
+      "summary": "Independent personality, self-awareness, values, and inner selfhood",
+      "keywords": [
+        "independent personality",
+        "self-awareness",
+        "values",
+        "confidence",
+        "inner world",
+        "mindset"
+      ],
+      "representative_comment_ids": [
+        149,
+        160,
+        143,
+        190
+      ],
+      "confidence": 0.91,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Evidence emphasizes forming identity, values, and inner confidence."
+    }
+  }
+}

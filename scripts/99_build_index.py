@@ -33,16 +33,9 @@ def main():
         for mf in map_files:
             shutil.copy2(mf, out_dir / mf.name)
 
-        # Optional: set a default map file name for backward compatibility.
-        # Prefer semantic/openai as default if present.
-        default_src = None
-        for cand in ["comments_map_openai.json", "comments_map_semantic.json", "comments_map_tfidf.json"]:
-            p = processed / cand
-            if p.exists():
-                default_src = p
-                break
-        if default_src is not None:
-            shutil.copy2(default_src, out_dir / "comments_map.json")
+        # Copy optional generated cluster descriptions used by the UI.
+        for artifact in processed.glob("cluster_metadata_*.json"):
+            shutil.copy2(artifact, out_dir / artifact.name)
 
         # Add to index
         with open(meta, "r", encoding="utf-8") as f:

@@ -1,0 +1,144 @@
+{
+  "dataset_id": "example_demo",
+  "map_type": "openai",
+  "model": "gpt-5.6-terra",
+  "prompt_version": "cluster-label-v2",
+  "display_language": "same as the source comments",
+  "source_map_sha256": "6827b97d4c4b3aabf3839c6c59c0de8618ee9e536b91b42bed15b59d1094d99a",
+  "generated_at": "2026-08-13T05:32:21.792414+00:00",
+  "responses": {
+    "stage_a": "resp_09ef7bf4a038f8ad016a7d56dda944819b95ecc53137dd87b3",
+    "stage_b": "resp_0c00f95f57b89ade016a7d56e0ecc8819ab074f7dbec259ea6"
+  },
+  "stage_a_drafts": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Bureaucratic and academic adjustment",
+      "summary": "Exhausting administrative processes and adapting to a new academic culture",
+      "keywords": [
+        "bureaucracy",
+        "administration",
+        "paperwork",
+        "exhaustion",
+        "academic culture",
+        "adjustment"
+      ],
+      "representative_comment_ids": [
+        76,
+        63,
+        3,
+        17
+      ],
+      "confidence": 0.95
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Rapid personal growth",
+      "summary": "Maturity, routine, uncertainty, budgeting, and preparation through the experience",
+      "keywords": [
+        "personal growth",
+        "maturity",
+        "routine",
+        "uncertainty",
+        "budgeting",
+        "preparation"
+      ],
+      "representative_comment_ids": [
+        33,
+        90,
+        77,
+        7
+      ],
+      "confidence": 0.88
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Mixed social adjustment experiences",
+      "summary": "Loneliness, new relationships, resilience, cultural shocks, and changing perspectives",
+      "keywords": [
+        "loneliness",
+        "social connections",
+        "resilience",
+        "culture shock",
+        "worldview",
+        "classmates",
+        "adjustment"
+      ],
+      "representative_comment_ids": [
+        72,
+        53,
+        11,
+        14
+      ],
+      "confidence": 0.76
+    }
+  },
+  "clusters": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Administrative burden",
+      "summary": "Exhausting bureaucracy and administrative processes during study abroad",
+      "keywords": [
+        "bureaucracy",
+        "administration",
+        "paperwork",
+        "exhaustion"
+      ],
+      "representative_comment_ids": [
+        76,
+        63,
+        17
+      ],
+      "confidence": 0.93,
+      "status": "revised",
+      "overlaps_with": [],
+      "verification_note": "Administrative burden dominates; academic-culture adjustment is an outlier."
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Personal growth",
+      "summary": "Maturity and practical self-reliance gained through the experience",
+      "keywords": [
+        "personal growth",
+        "maturity",
+        "routine",
+        "uncertainty",
+        "budgeting",
+        "preparation"
+      ],
+      "representative_comment_ids": [
+        33,
+        90,
+        77,
+        7
+      ],
+      "confidence": 0.88,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Growth and increasing self-reliance form a coherent central pattern."
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Mixed adjustment experiences",
+      "summary": "Loneliness, relationships, resilience, culture shock, and perspective changes",
+      "keywords": [
+        "loneliness",
+        "social connections",
+        "resilience",
+        "culture shock",
+        "worldview",
+        "classmates"
+      ],
+      "representative_comment_ids": [
+        72,
+        53,
+        11,
+        14
+      ],
+      "confidence": 0.76,
+      "status": "mixed",
+      "overlaps_with": [],
+      "verification_note": "Several adjustment themes appear, without one sufficiently dominant theme."
+    }
+  }
+}

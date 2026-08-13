@@ -20,9 +20,25 @@ type Point = {
   cluster_id: number;
 };
 
+type ClusterInfo = {
+  cluster_id: number;
+  label: string;
+  summary: string;
+  keywords?: string[];
+  confidence?: number;
+  status?: "verified" | "revised" | "overlap" | "mixed";
+  overlaps_with?: number[];
+  verification_note?: string;
+};
+
+type ClusterMetadata = {
+  clusters: Record<string, ClusterInfo>;
+};
+
 export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetId: string; mapType?: "openai" | "tfidf" }) {
   const [points, setPoints] = useState<Point[]>([]);
   const [selected, setSelected] = useState<Point | null>(null);
+  const [clusterMetadata, setClusterMetadata] = useState<ClusterMetadata | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   const pointsRef = useRef<Point[]>([]);
@@ -34,8 +50,9 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
     setSelected(null);
     setErr(null);
     setNotice(null);
+    setClusterMetadata(null);
 
-    const loadPoints = async (file: string) => {
+    const loadJson = async (file: string) => {
       const r = await fetch(withBasePath(`/datasets/${encodeURIComponent(datasetId)}/${file}`));
       if (!r.ok) {
         const err = new Error(`HTTP ${r.status}`);
@@ -45,24 +62,40 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
       return r.json();
     };
 
-    loadPoints(mapType === "tfidf" ? "comments_map_tfidf.json" : "comments_map_openai.json")
-      .catch((e: Error & { status?: number }) => {
-        if (mapType === "openai" && e.status === 404) {
+    const load = async () => {
+      let resolvedType: "openai" | "tfidf" = mapType;
+      let data;
+      try {
+        data = await loadJson(`comments_map_${resolvedType}.json`);
+      } catch (e) {
+        const error = e as Error & { status?: number };
+        if (resolvedType === "openai" && error.status === 404) {
+          resolvedType = "tfidf";
           setNotice("Semantic map unavailable for this dataset. Showing TF-IDF instead.");
-          return loadPoints("comments_map_tfidf.json");
+          data = await loadJson("comments_map_tfidf.json");
+        } else {
+          throw error;
         }
-        throw e;
-      })
-      .then((d) => {
-        const cleaned = Array.isArray(d)
-          ? d.filter((p) => {
+      }
+
+      const cleaned = Array.isArray(data)
+          ? data.filter((p) => {
               const t = p?.text;
               return typeof t === "string" && t.trim().length > 0;
             })
           : [];
-        setPoints(cleaned);
-      })
-      .catch((e) => setErr(String(e)));
+      setPoints(cleaned);
+
+      try {
+        const metadata = await loadJson(`cluster_metadata_${resolvedType}.json`);
+        setClusterMetadata(metadata?.clusters ? metadata : null);
+      } catch (e) {
+        const error = e as Error & { status?: number };
+        if (error.status !== 404) throw error;
+      }
+    };
+
+    load().catch((e) => setErr(String(e)));
   }, [datasetId, mapType]);
 
   useEffect(() => {
@@ -88,7 +121,7 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
     setTimeout(() => gd.on?.("plotly_click", handler), 100);
   };
 
-  const { traces } = useMemo(() => {
+  const { traces, legendEntries } = useMemo(() => {
     const likes = points.map((p) => (p.likes ?? 0));
     const maxLikes = Math.max(1, ...likes);
     const sizes = likes.map((l) => 6 + 18 * Math.sqrt(l / maxLikes));
@@ -109,10 +142,13 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
     });
 
     const sortedClusters = Array.from(byCluster.keys()).sort((a, b) => a - b);
+    const legendEntries: Array<{ clusterId: number; name: string; color: string }> = [];
     const traces = sortedClusters.map((clusterId, idx) => {
       const indices = byCluster.get(clusterId) ?? [];
       const color = clusterId === -1 ? "#9ca3af" : palette[idx % palette.length];
-      const name = clusterId === -1 ? "Noise" : `Cluster ${clusterId}`;
+      const clusterInfo = clusterMetadata?.clusters?.[String(clusterId)];
+      const name = clusterId === -1 ? "Unclustered" : clusterInfo?.label ?? `Cluster ${clusterId}`;
+      legendEntries.push({ clusterId, name, color });
 
       return {
         type: "scattergl",
@@ -143,10 +179,10 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
             return out.join("<br>");
           };
           const wrapped = wrapLine(snippet, 30);
-          return [i, p.id, p.likes ?? "NA", p.cluster_id, wrapped];
+          return [i, p.id, p.likes ?? "NA", p.cluster_id, wrapped, name];
         }),
         hovertemplate:
-          "id: %{customdata[1]}<br>likes: %{customdata[2]}<br>cluster: %{customdata[3]}<br>%{customdata[4]}<br><span style=\"opacity:.7\">Click for full text</span><extra></extra>",
+          "<b>%{customdata[5]}</b><br>id: %{customdata[1]} · likes: %{customdata[2]}<br>%{customdata[4]}<br><span style=\"opacity:.7\">Click for full text</span><extra></extra>",
         hoverlabel: {
           bgcolor: "rgba(255,255,255,0.92)",
           bordercolor: "#111",
@@ -158,29 +194,63 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
       } as any;
     });
 
-    return { traces };
-  }, [points, selected]);
+    return { traces, legendEntries };
+  }, [points, selected, clusterMetadata]);
 
   if (!datasetId) return <div style={{ color: "crimson" }}>Missing dataset id.</div>;
   if (err) return <div style={{ color: "crimson" }}>Failed to load map: {err}</div>;
   if (!points.length) return <div style={{ opacity: 0.7 }}>Loading map…</div>;
 
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 16 }}>
+    <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(280px, 360px)", gap: 16 }}>
       <div style={{ border: "1px solid #eee", borderRadius: 12, padding: 8 }}>
         {notice ? (
           <div style={{ marginBottom: 8, fontSize: 12, opacity: 0.75 }}>{notice}</div>
         ) : null}
+        <div style={{ padding: "8px 8px 4px" }}>
+          <div style={{ marginBottom: 8, fontSize: 12, fontWeight: 600, opacity: 0.7 }}>
+            Clusters
+          </div>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+              gap: "8px 14px",
+            }}
+          >
+            {legendEntries.map((entry) => (
+              <div
+                key={entry.clusterId}
+                style={{ display: "flex", alignItems: "flex-start", gap: 7, minWidth: 0 }}
+              >
+                <span
+                  aria-hidden="true"
+                  style={{
+                    width: 10,
+                    height: 10,
+                    marginTop: 3,
+                    borderRadius: "50%",
+                    background: entry.color,
+                    flex: "0 0 auto",
+                  }}
+                />
+                <span style={{ fontSize: 12, lineHeight: 1.3, overflowWrap: "anywhere" }}>
+                  {entry.name}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
         <Plot
           key={`${datasetId}:${mapType}:${points.length}`}
           data={traces}
           layout={{
-            height: 640,
-            margin: { l: 30, r: 10, t: 10, b: 30 },
+            height: 560,
+            margin: { l: 30, r: 20, t: 10, b: 30 },
             xaxis: { zeroline: false },
             yaxis: { zeroline: false },
             hovermode: "closest",
-            legend: { title: { text: "Clusters" } },
+            showlegend: false,
             clickmode: "event+select",
           }}
           onInitialized={(_fig: any, gd: any) => {
@@ -192,7 +262,7 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
           onClick={(ev: any) => {
             handlePointClick(ev);
           }}
-          config={{ displayModeBar: true }}
+          config={{ displayModeBar: true, responsive: true }}
         />
       </div>
 
@@ -202,6 +272,20 @@ export default function ScatterMap({ datasetId, mapType = "openai" }: { datasetI
           <p style={{ marginTop: 12, opacity: 0.7 }}>Click a point to view the full comment.</p>
         ) : (
           <div style={{ marginTop: 12 }}>
+            {(() => {
+              const info = clusterMetadata?.clusters?.[String(selected.cluster_id)];
+              const label = selected.cluster_id === -1 ? "Unclustered" : info?.label ?? `Cluster ${selected.cluster_id}`;
+              return (
+                <>
+                  <div style={{ fontWeight: 600 }}>{label}</div>
+                  {info?.summary ? (
+                    <p style={{ margin: "6px 0 10px", fontSize: 13, lineHeight: 1.45, opacity: 0.78 }}>
+                      {info.summary}
+                    </p>
+                  ) : null}
+                </>
+              );
+            })()}
             <div style={{ fontSize: 12, opacity: 0.75 }}>
               id {selected.id} · cluster {selected.cluster_id} · likes {selected.likes ?? "NA"}
             </div>

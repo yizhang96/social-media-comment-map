@@ -1,0 +1,366 @@
+{
+  "dataset_id": "xhs_2026-02-07_studyabroad",
+  "map_type": "tfidf",
+  "model": "gpt-5.6-terra",
+  "prompt_version": "cluster-label-v2",
+  "display_language": "same as the source comments",
+  "source_map_sha256": "88697232ca88c170da967fa29e83152f2613b30e84847266b3d9a9e64341ef52",
+  "generated_at": "2026-08-13T06:36:27.308702+00:00",
+  "responses": {
+    "stage_a": "resp_00cafd96d069b583016a7d65d8a0548199bdefc909ca880758",
+    "stage_b": "resp_080f119b053ec26a016a7d65deec8881998a1d35b7ced8f8f0"
+  },
+  "stage_a_drafts": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Broader horizons",
+      "summary": "Expanded perspectives, life experiences, confidence, and self-awareness",
+      "keywords": [
+        "broadened horizons",
+        "perspective",
+        "life experiences",
+        "confidence",
+        "self-awareness",
+        "tolerance"
+      ],
+      "representative_comment_ids": [
+        151,
+        116,
+        198,
+        168
+      ],
+      "confidence": 0.98
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Respecting cultural differences",
+      "summary": "Respect for diversity, multicultural understanding, tolerance, and empathy",
+      "keywords": [
+        "respect differences",
+        "diversity",
+        "multiculturalism",
+        "tolerance",
+        "acceptance",
+        "empathy"
+      ],
+      "representative_comment_ids": [
+        189,
+        118,
+        56,
+        68
+      ],
+      "confidence": 0.99
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Mixed reflections on abroad",
+      "summary": "Identity, cultural comparison, expression, independence, and miscellaneous reactions",
+      "keywords": [
+        "culture",
+        "identity",
+        "comparison",
+        "expression",
+        "independence",
+        "critical thinking",
+        "study abroad"
+      ],
+      "representative_comment_ids": [
+        1,
+        62,
+        74,
+        22
+      ],
+      "confidence": 0.62
+    },
+    "3": {
+      "cluster_id": 3,
+      "label": "Learning how to learn",
+      "summary": "Independent learning, communication, information verification, and problem-solving",
+      "keywords": [
+        "learning",
+        "independent thinking",
+        "communication",
+        "debate",
+        "information verification",
+        "problem-solving"
+      ],
+      "representative_comment_ids": [
+        112,
+        99,
+        64,
+        103
+      ],
+      "confidence": 0.96
+    },
+    "4": {
+      "cluster_id": 4,
+      "label": "Independent living and thought",
+      "summary": "Independent thinking, self-reliance, choices, and personal growth",
+      "keywords": [
+        "independent thinking",
+        "independent living",
+        "self-reliance",
+        "choices",
+        "growth",
+        "critical reflection"
+      ],
+      "representative_comment_ids": [
+        142,
+        187,
+        154,
+        19
+      ],
+      "confidence": 0.98
+    },
+    "5": {
+      "cluster_id": 5,
+      "label": "Independent personality",
+      "summary": "Independent mindset, confidence, reasoning, and resistance to conformity",
+      "keywords": [
+        "independent personality",
+        "independent thinking",
+        "confidence",
+        "reasoning",
+        "reflection",
+        "public opinion"
+      ],
+      "representative_comment_ids": [
+        166,
+        111,
+        149,
+        82
+      ],
+      "confidence": 0.96
+    },
+    "6": {
+      "cluster_id": 6,
+      "label": "Critical thinking development",
+      "summary": "Formation and improvement of critical-thinking skills and habits",
+      "keywords": [
+        "critical thinking",
+        "thinking skills",
+        "mindset",
+        "thinking patterns",
+        "cultivation",
+        "development"
+      ],
+      "representative_comment_ids": [
+        182,
+        170,
+        164,
+        200
+      ],
+      "confidence": 0.99
+    },
+    "7": {
+      "cluster_id": 7,
+      "label": "Critical thinking",
+      "summary": "Critical reasoning, expression, comprehensive perspectives, and diverse values",
+      "keywords": [
+        "critical thinking",
+        "reasoning",
+        "expression",
+        "comprehensive perspective",
+        "diverse values",
+        "lifelong benefit"
+      ],
+      "representative_comment_ids": [
+        50,
+        106,
+        87,
+        120
+      ],
+      "confidence": 0.99
+    }
+  },
+  "clusters": {
+    "0": {
+      "cluster_id": 0,
+      "label": "Broader horizons",
+      "summary": "Expanded perspectives, experiences, confidence, self-awareness, and tolerance",
+      "keywords": [
+        "broadened horizons",
+        "perspective",
+        "life experiences",
+        "confidence",
+        "self-awareness",
+        "tolerance"
+      ],
+      "representative_comment_ids": [
+        151,
+        116,
+        198,
+        168
+      ],
+      "confidence": 0.98,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Consistent general theme of expanded outlook and personal enrichment."
+    },
+    "1": {
+      "cluster_id": 1,
+      "label": "Respecting cultural differences",
+      "summary": "Respect for diversity, multicultural understanding, tolerance, and empathy",
+      "keywords": [
+        "respect differences",
+        "diversity",
+        "multiculturalism",
+        "tolerance",
+        "acceptance",
+        "empathy"
+      ],
+      "representative_comment_ids": [
+        189,
+        118,
+        56,
+        68
+      ],
+      "confidence": 0.99,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Clearly focused on accepting cultural and individual differences."
+    },
+    "2": {
+      "cluster_id": 2,
+      "label": "Mixed study-abroad reflections",
+      "summary": "Identity, cultural comparison, expression, independence, and miscellaneous reactions",
+      "keywords": [
+        "culture",
+        "identity",
+        "comparison",
+        "expression",
+        "independence",
+        "critical thinking"
+      ],
+      "representative_comment_ids": [
+        1,
+        62,
+        74,
+        22
+      ],
+      "confidence": 0.62,
+      "status": "mixed",
+      "overlaps_with": [],
+      "verification_note": "No single theme dominates; substantive reflections are mixed with brief reactions."
+    },
+    "3": {
+      "cluster_id": 3,
+      "label": "Learning how to learn",
+      "summary": "Learning strategies, communication, verification, and problem-solving skills",
+      "keywords": [
+        "learning",
+        "independent thinking",
+        "communication",
+        "debate",
+        "information verification",
+        "problem-solving"
+      ],
+      "representative_comment_ids": [
+        112,
+        99,
+        64,
+        103
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Focused on transferable learning and communication capabilities."
+    },
+    "4": {
+      "cluster_id": 4,
+      "label": "Independent living and thought",
+      "summary": "Self-reliance, independent choices, critical reflection, and personal growth",
+      "keywords": [
+        "independent thinking",
+        "independent living",
+        "self-reliance",
+        "choices",
+        "growth",
+        "critical reflection"
+      ],
+      "representative_comment_ids": [
+        142,
+        187,
+        154,
+        19
+      ],
+      "confidence": 0.98,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Distinctly combines autonomous living with independent judgment."
+    },
+    "5": {
+      "cluster_id": 5,
+      "label": "Independent mindset and personality",
+      "summary": "Independent judgment, confidence, reasoning, and resistance to conformity",
+      "keywords": [
+        "independent personality",
+        "independent thinking",
+        "confidence",
+        "reasoning",
+        "reflection",
+        "public opinion"
+      ],
+      "representative_comment_ids": [
+        166,
+        111,
+        149,
+        82
+      ],
+      "confidence": 0.96,
+      "status": "verified",
+      "overlaps_with": [],
+      "verification_note": "Centers on an autonomous personal mindset rather than living skills."
+    },
+    "6": {
+      "cluster_id": 6,
+      "label": "Critical thinking",
+      "summary": "Formation and improvement of critical-thinking skills and habits",
+      "keywords": [
+        "critical thinking",
+        "thinking skills",
+        "mindset",
+        "thinking patterns",
+        "cultivation",
+        "development"
+      ],
+      "representative_comment_ids": [
+        182,
+        170,
+        164,
+        200
+      ],
+      "confidence": 0.99,
+      "status": "overlap",
+      "overlaps_with": [
+        7
+      ],
+      "verification_note": "Substantively indistinguishable from cluster 7; developmental wording does not create a separate theme."
+    },
+    "7": {
+      "cluster_id": 7,
+      "label": "Critical thinking",
+      "summary": "Critical reasoning, expression, comprehensive perspectives, and diverse values",
+      "keywords": [
+        "critical thinking",
+        "reasoning",
+        "expression",
+        "comprehensive perspective",
+        "diverse values",
+        "lifelong benefit"
+      ],
+      "representative_comment_ids": [
+        50,
+        106,
+        87,
+        120
+      ],
+      "confidence": 0.99,
+      "status": "overlap",
+      "overlaps_with": [
+        6
+      ],
+      "verification_note": "Substantively indistinguishable from cluster 6; both primarily identify critical thinking."
+    }
+  }
+}
